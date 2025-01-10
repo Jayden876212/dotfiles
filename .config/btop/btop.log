@@ -1,0 +1,361 @@
+
+2023/07/14 (14:16:36) | ===> btop++ v.1.2.13
+2023/07/14 (14:16:36) | WARNING: No good candidate for cpu sensor found, using random from all found sensors.
+
+2023/07/14 (14:17:21) | ===> btop++ v.1.2.13
+2023/07/14 (14:17:21) | WARNING: No good candidate for cpu sensor found, using random from all found sensors.
+
+2023/07/14 (15:15:36) | ===> btop++ v.1.2.13
+2023/07/14 (15:15:36) | WARNING: No good candidate for cpu sensor found, using random from all found sensors.
+
+2023/07/14 (23:30:27) | ===> btop++ v.1.2.13
+2023/07/14 (23:30:27) | WARNING: No good candidate for cpu sensor found, using random from all found sensors.
+
+2023/07/14 (23:30:40) | ===> btop++ v.1.2.13
+2023/07/14 (23:30:40) | WARNING: No good candidate for cpu sensor found, using random from all found sensors.
+
+2023/07/14 (23:37:56) | ===> btop++ v.1.2.13
+2023/07/14 (23:37:56) | WARNING: No good candidate for cpu sensor found, using random from all found sensors.
+
+2023/07/14 (23:38:39) | ===> btop++ v.1.2.13
+2023/07/14 (23:38:39) | WARNING: No good candidate for cpu sensor found, using random from all found sensors.
+
+2024/03/06 (15:08:16) | ===> btop++ v.1.3.0
+2024/03/06 (15:08:16) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/03/17 (10:17:08) | ===> btop++ v.1.3.0
+2024/03/17 (10:17:08) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/03/17 (10:48:44) | ===> btop++ v.1.3.0
+2024/03/17 (10:48:44) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/03/17 (17:40:14) | ===> btop++ v.1.3.0
+2024/03/17 (17:40:14) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/03/17 (18:50:41) | ===> btop++ v.1.3.0
+2024/03/17 (18:50:41) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/03/19 (07:51:52) | ===> btop++ v.1.3.0
+2024/03/19 (07:51:52) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/03/26 (22:12:42) | ===> btop++ v.1.3.0
+2024/03/26 (22:12:42) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/03/27 (19:20:47) | ===> btop++ v.1.3.0
+2024/03/27 (19:20:47) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/04/18 (07:47:44) | ===> btop++ v.1.3.2
+2024/04/18 (07:47:44) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/05/08 (15:58:11) | ===> btop++ v.1.3.2
+2024/05/08 (15:58:11) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/02 (12:09:25) | ===> btop++ v.1.3.2
+2024/06/02 (12:09:25) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/11 (11:07:03) | ===> btop++ v.1.3.2
+2024/06/11 (11:07:03) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/12 (19:08:48) | ===> btop++ v.1.3.2
+2024/06/12 (19:08:48) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/12 (21:13:41) | ===> btop++ v.1.3.2
+2024/06/12 (21:13:41) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/19 (22:16:52) | ===> btop++ v.1.3.2
+2024/06/19 (22:16:52) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/20 (21:12:25) | ===> btop++ v.1.3.2
+2024/06/20 (21:12:25) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/21 (22:14:31) | ===> btop++ v.1.3.2
+2024/06/21 (22:14:31) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/22 (12:15:29) | ===> btop++ v.1.3.2
+2024/06/22 (12:15:29) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/22 (12:49:03) | ===> btop++ v.1.3.2
+2024/06/22 (12:49:03) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/25 (18:08:34) | ===> btop++ v.1.3.2
+2024/06/25 (18:08:34) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/25 (19:48:39) | ===> btop++ v.1.3.2
+2024/06/25 (19:48:39) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/25 (20:19:52) | ===> btop++ v.1.3.2
+2024/06/25 (20:19:52) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/27 (13:27:37) | ===> btop++ v.1.3.2
+2024/06/27 (13:27:37) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/27 (16:15:30) | ===> btop++ v.1.3.2
+2024/06/27 (16:15:30) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/27 (17:48:24) | ===> btop++ v.1.3.2
+2024/06/27 (17:48:24) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/27 (19:38:14) | ===> btop++ v.1.3.2
+2024/06/27 (19:38:14) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/27 (20:41:19) | ===> btop++ v.1.3.2
+2024/06/27 (20:41:19) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/27 (20:41:30) | ===> btop++ v.1.3.2
+2024/06/27 (20:41:30) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/28 (20:44:30) | ===> btop++ v.1.3.2
+2024/06/28 (20:44:30) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/29 (21:51:48) | ===> btop++ v.1.3.2
+2024/06/29 (21:51:48) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/29 (21:52:42) | ===> btop++ v.1.3.2
+2024/06/29 (21:52:42) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/06/30 (22:08:36) | ===> btop++ v.1.3.2
+2024/06/30 (22:08:36) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/01 (15:28:33) | ===> btop++ v.1.3.2
+2024/07/01 (15:28:33) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/02 (17:07:43) | ===> btop++ v.1.3.2
+2024/07/02 (17:07:43) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/03 (21:12:19) | ===> btop++ v.1.3.2
+2024/07/03 (21:12:19) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/08 (08:52:43) | ===> btop++ v.1.3.2
+2024/07/08 (08:52:43) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/10 (09:50:22) | ===> btop++ v.1.3.2
+2024/07/10 (09:50:22) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/11 (19:35:35) | ===> btop++ v.1.3.2
+2024/07/11 (19:35:35) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/12 (11:15:54) | ===> btop++ v.1.3.2
+2024/07/12 (11:15:54) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/12 (11:18:47) | ===> btop++ v.1.3.2
+2024/07/12 (11:18:47) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/12 (11:26:47) | ===> btop++ v.1.3.2
+2024/07/12 (11:26:47) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/12 (13:17:51) | ===> btop++ v.1.3.2
+2024/07/12 (13:17:51) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/12 (13:18:35) | ===> btop++ v.1.3.2
+2024/07/12 (13:18:35) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/12 (16:09:30) | ===> btop++ v.1.3.2
+2024/07/12 (16:09:30) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/13 (21:19:19) | ===> btop++ v.1.3.2
+2024/07/13 (21:19:19) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/19 (11:05:14) | ===> btop++ v.1.3.2
+2024/07/19 (11:05:14) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (10:10:11) | ===> btop++ v.1.3.2
+2024/07/23 (10:10:11) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (10:10:42) | ===> btop++ v.1.3.2
+2024/07/23 (10:10:42) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (10:17:02) | ===> btop++ v.1.3.2
+2024/07/23 (10:17:02) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (10:18:36) | ===> btop++ v.1.3.2
+2024/07/23 (10:18:36) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (10:24:10) | ===> btop++ v.1.3.2
+2024/07/23 (10:24:10) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (10:24:40) | ===> btop++ v.1.3.2
+2024/07/23 (10:24:40) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (10:39:39) | ===> btop++ v.1.3.2
+2024/07/23 (10:39:39) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (11:55:20) | ===> btop++ v.1.3.2
+2024/07/23 (11:55:20) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (11:56:24) | ===> btop++ v.1.3.2
+2024/07/23 (11:56:24) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (11:56:41) | ===> btop++ v.1.3.2
+2024/07/23 (11:56:41) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (12:02:44) | ===> btop++ v.1.3.2
+2024/07/23 (12:02:44) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (12:05:52) | ===> btop++ v.1.3.2
+2024/07/23 (12:05:52) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (12:11:36) | ===> btop++ v.1.3.2
+2024/07/23 (12:11:36) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (12:11:53) | ===> btop++ v.1.3.2
+2024/07/23 (12:11:53) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (12:12:18) | ===> btop++ v.1.3.2
+2024/07/23 (12:12:18) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (12:13:20) | ===> btop++ v.1.3.2
+2024/07/23 (12:13:20) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (12:15:15) | ===> btop++ v.1.3.2
+2024/07/23 (12:15:15) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (12:21:44) | ===> btop++ v.1.3.2
+2024/07/23 (12:21:44) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (13:59:46) | ===> btop++ v.1.3.2
+2024/07/23 (13:59:46) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (14:00:21) | ===> btop++ v.1.3.2
+2024/07/23 (14:00:21) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (13:15:24) | ===> btop++ v.1.3.2
+2024/07/23 (13:15:24) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (13:18:43) | ===> btop++ v.1.3.2
+2024/07/23 (13:18:43) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (13:20:21) | ===> btop++ v.1.3.2
+2024/07/23 (13:20:21) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (13:29:54) | ===> btop++ v.1.3.2
+2024/07/23 (13:29:54) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (13:31:40) | ===> btop++ v.1.3.2
+2024/07/23 (13:31:40) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (13:36:08) | ===> btop++ v.1.3.2
+2024/07/23 (13:36:08) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (13:47:40) | ===> btop++ v.1.3.2
+2024/07/23 (13:47:40) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (14:39:25) | ===> btop++ v.1.3.2
+2024/07/23 (14:39:25) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (16:00:43) | ===> btop++ v.1.3.2
+2024/07/23 (16:00:43) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (16:53:00) | ===> btop++ v.1.3.2
+2024/07/23 (16:53:00) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (16:59:28) | ===> btop++ v.1.3.2
+2024/07/23 (16:59:28) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (17:24:02) | ===> btop++ v.1.3.2
+2024/07/23 (17:24:02) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/23 (21:24:15) | ===> btop++ v.1.3.2
+2024/07/23 (21:24:15) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:21:04) | ===> btop++ v.1.3.2
+2024/07/24 (13:21:04) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:21:12) | ===> btop++ v.1.3.2
+2024/07/24 (13:21:12) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:23:22) | ===> btop++ v.1.3.2
+2024/07/24 (13:23:22) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:24:28) | ===> btop++ v.1.3.2
+2024/07/24 (13:24:28) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:24:55) | ===> btop++ v.1.3.2
+2024/07/24 (13:24:55) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:27:21) | ===> btop++ v.1.3.2
+2024/07/24 (13:27:21) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:34:15) | ===> btop++ v.1.3.2
+2024/07/24 (13:34:15) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:35:28) | ===> btop++ v.1.3.2
+2024/07/24 (13:35:28) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:37:43) | ===> btop++ v.1.3.2
+2024/07/24 (13:37:43) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:39:19) | ===> btop++ v.1.3.2
+2024/07/24 (13:39:19) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:39:45) | ===> btop++ v.1.3.2
+2024/07/24 (13:39:45) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:39:59) | ===> btop++ v.1.3.2
+2024/07/24 (13:39:59) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:40:39) | ===> btop++ v.1.3.2
+2024/07/24 (13:40:39) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:41:18) | ===> btop++ v.1.3.2
+2024/07/24 (13:41:18) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:45:30) | ===> btop++ v.1.3.2
+2024/07/24 (13:45:30) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+2024/07/24 (13:46:12) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2024/07/24 (13:46:12) | ERROR: Couldn't determine terminal size of "/dev/tty"!
+
+2024/07/24 (13:47:45) | ===> btop++ v.1.3.2
+2024/07/24 (13:47:45) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:57:19) | ===> btop++ v.1.3.2
+2024/07/24 (13:57:19) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (13:57:22) | ===> btop++ v.1.3.2
+2024/07/24 (13:57:22) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/24 (15:49:57) | ===> btop++ v.1.3.2
+2024/07/24 (15:49:57) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/25 (21:39:52) | ===> btop++ v.1.3.2
+2024/07/25 (21:39:52) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/26 (08:29:24) | ===> btop++ v.1.3.2
+2024/07/26 (08:29:24) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/07/31 (08:19:13) | ===> btop++ v.1.3.2
+2024/07/31 (08:19:13) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/08/01 (15:56:25) | ===> btop++ v.1.3.2
+2024/08/01 (15:56:25) | WARNING: ROCm SMI: Dynamic loading only supported for version 5 and 6
+
+2024/08/18 (09:02:00) | ===> btop++ v.1.3.2
+2024/08/18 (09:02:00) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/08/21 (12:37:01) | ===> btop++ v.1.3.2
+2024/08/21 (12:37:01) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/08/21 (20:29:38) | ===> btop++ v.1.3.2
+2024/08/21 (20:29:38) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/08/23 (20:27:39) | ===> btop++ v.1.3.2
+2024/08/23 (20:27:39) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/08/26 (11:18:06) | ===> btop++ v.1.3.2
+2024/08/26 (11:18:06) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/09/08 (20:04:41) | ===> btop++ v.1.3.2
+2024/09/08 (20:04:41) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/09/20 (17:31:48) | ===> btop++ v.1.3.2
+2024/09/20 (17:31:48) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/10/31 (20:12:47) | ===> btop++ v.1.3.2
+2024/10/31 (20:12:47) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/12/07 (18:58:12) | ===> btop++ v.1.3.2
+2024/12/07 (18:58:12) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/12/08 (11:09:36) | ===> btop++ v.1.3.2
+2024/12/08 (11:09:36) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/12/08 (11:39:26) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2024/12/08 (11:39:26) | ERROR: Couldn't determine terminal size of "/dev/tty"!
