@@ -8424,3 +8424,5 @@
 21:56:57.052563 table@remove removed @13356
 21:56:57.052747 table@remove removed @13357
 21:56:57.052923 table@remove removed @13358
+21:59:52.072912 db@close closing
+21:59:52.073359 db@close done T·446.973µs
