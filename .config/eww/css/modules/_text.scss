@@ -1,0 +1,51 @@
+@mixin text {
+        //font-family: "jetbrains mono nerd font";
+        font-family: "urw gothic";
+	font-weight: 900;
+	color: rgba(255, 255, 255, 1);
+}
+
+.text {
+	@include text;
+}
+
+.texttopbarsmall {
+	@include text;
+	font-size: 9px;
+}
+
+.textnerd {
+	@include text;
+        font-family: "jetbrains mono nerd font";
+}
+
+.textunderline {
+	@include text;
+	text-decoration-line: underline;
+}
+
+.textitalic {
+	@include text;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.textbold {
+	@include text;
+	font-weight: bold;
+}
+
+.faniconfont {
+	@include text;
+	font-size: 30px;
+	//font-family: "MaterialIcons-Regular";
+}
+
+.textfontawesome {
+	//font-family: "Font Awesome 5 Free-Solid-900";
+	color: rgba(255, 255, 255, 1);
+}
+
+.label-margin-top {
+	margin-top: 15px;
+}

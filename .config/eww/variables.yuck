@@ -1,0 +1,75 @@
+; Const vars
+;(defvar wsnums `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`)
+;(defvar ws-icons '["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]')
+
+; Vars
+(defvar music_reveal false)
+
+; Listeners
+;(deflisten notifications "scripts/notifications")
+;(deflisten notif_icons :initial `{"icon": "󰆄", "paused": false, "toggle_icon": ""}` "scripts/notifications icons")
+;(deflisten workspace "scripts/workspaces")
+(deflisten awin "scripts/activewin")
+;(deflisten activews :initial 1 "scripts/activews")
+
+; hwinfo
+
+(defpoll sensors :interval "1s"
+  'scripts/hwinfo/sensors')
+(defpoll gpuusage :interval "1s"
+  'scripts/hwinfo/gpuusage')
+(deflisten cpuusage :intial 0
+  'scripts/hwinfo/cpuusage')
+(defpoll memtotal :interval "1s"
+                  :initial 0
+  'scripts/hwinfo/memtotal')
+(defpoll memfree :interval "1s"
+                 :initial 0
+  'scripts/hwinfo/memfree')
+(defpoll swaptotal :interval "1s"
+                   :initial 0
+  'scripts/hwinfo/swaptotal')
+(defpoll swapfree :interval "1s"
+                  :initial 0
+  'scripts/hwinfo/swapfree')
+(defpoll vramusage :interval "1s"
+                   :initial 0
+  'scripts/hwinfo/vramusage')
+(defpoll driveusedroot :interval "1s"
+                   :initial 0
+  'scripts/hwinfo/driveusedroot')
+(defpoll driveavailableroot :interval "1s"
+                   :initial 0
+  'scripts/hwinfo/driveavailableroot')
+(defpoll driveusedboot :interval "1s"
+                   :initial 0
+  'scripts/hwinfo/driveusedboot')
+(defpoll driveavailableboot :interval "1s"
+                   :initial 0
+  'scripts/hwinfo/driveavailableboot')
+(defpoll mouseinfo :interval "1s"
+                   :initial 0
+  'scripts/hwinfo/mouseinfo')
+
+; osinfo
+
+(defpoll compositorname :interval "60s" 
+  'scripts/osinfo/compositorname')
+(defpoll distname :interval "60s"
+  'scripts/osinfo/distname')
+(defpoll distver :interval "60s"
+  'scripts/osinfo/distver')
+(defpoll hostname :interval "60s"
+  'scripts/osinfo/hostname')
+(defpoll kernelver :interval "60s"
+  'scripts/osinfo/kernelver')
+(defpoll osname :interval "60s"
+  'scripts/osinfo/osname')
+(defpoll pkgcount :interval "60s"
+  'scripts/osinfo/pkgcount')
+(defpoll username :interval "60s"
+  'scripts/osinfo/username')
+
+; workspaces indicator
+
+(deflisten workspaces 'scripts/hyprland_workspace_indicator/bin/workspaces_script')

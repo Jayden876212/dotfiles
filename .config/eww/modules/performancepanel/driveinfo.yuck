@@ -1,0 +1,21 @@
+(defwidget driveinfo []
+  (box :class "containerborder" :orientation "v" :valign "center" :halign "center" :height 300 :width 210 :space-evenly "false" :spacing 20
+    (label :text " NVME Temperature" :class "label-margin-top")
+    (image :path "images/driveclipart.png" :image-width 75)
+    ; [text value colour size width]
+    (progressbar :text "${sensors.nvme-pci-0100.Composite.temp1_input}°C"
+                 :value { ( (sensors.nvme-pci-0100.Composite.temp1_input) / 70) * 100}
+                 :colour "frost4"
+                 :size "small"
+                 :width progressbarsmallwidth)
+    (label :text " Drive Usage")
+    (progressbar :text "/ (${round((driveusedroot) * (9.5367431640625 * 1/10000000), 1)}GB/${round((driveusedroot+driveavailableroot) * (9.5367431640625 * 1/10000000), 1)}GB)"
+                 :value { ( (driveusedroot) / (driveusedroot + driveavailableroot) ) * 100 }
+                 :colour "frost3"
+                 :size "small"
+                 :width progressbarsmallwidth)
+    (progressbar :text "/boot (${round((driveusedboot) * (9.5367431640625 * 1/10000000), 1)}GB/${round((driveusedboot+driveavailableboot) * (9.5367431640625 * 1/10000000), 1)}GB)"
+                 :value { ( (driveusedboot) / (driveusedboot + driveavailableboot) ) * 100 }
+                 :colour "frost3"
+                 :size "small"
+                 :width progressbarsmallwidth)))

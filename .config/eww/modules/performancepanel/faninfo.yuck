@@ -1,0 +1,46 @@
+(defwidget faninfo []
+  (box :class "containerborder" :height 290 :width 300 :orientation "v" :space-evenly "false" :spacing 0
+    (box :class "container" :orientation "h" :halign "center" :valign "center" :height 0 :width 290
+      (circularmetric :text "󰈐" 
+                      :value { ( (sensors.it8665-isa-0290.fan3.fan3_input) / 1900 ) * 100} 
+                      :width circularmetricsmallwidth
+                      :fontclass "faniconfont"
+                      :colour "frost1"
+        (label :text "${sensors.it8665-isa-0290.fan3.fan3_input} RPM")
+        (label :text "CPU Fan"))
+      (circularmetric :text "󰈐" 
+                      :value { ( (sensors.it8665-isa-0290.fan6.fan6_input) / 5000 ) * 100 }
+                      :width circularmetricsmallwidth
+                      :fontclass "faniconfont"
+                      :colour "frost1"
+        (label :text "${sensors.it8665-isa-0290.fan6.fan6_input} RPM")
+        (label :text "CPU Pump"))
+      (circularmetric :text "󰈐" 
+                      :value { ( (sensors.amdgpu-pci-0b00.fan1.fan1_input) / 2700 ) * 100} 
+                      :width circularmetricsmallwidth
+                      :fontclass "faniconfont"
+                      :colour "frost2"
+        (label :text "${sensors.amdgpu-pci-0b00.fan1.fan1_input} RPM")
+        (label :text "GPU Fan")))
+    (box :class "container" :orientation "h" :halign "center" :valign "center" :height 0 :width 290
+      (circularmetric :text "󰈐" 
+                      :value { ( (sensors.it8665-isa-0290.fan1.fan1_input) / 1900 ) * 100} 
+                      :width circularmetricsmallwidth
+                      :fontclass "faniconfont"
+                      :colour "frost4"
+        (label :text "${sensors.it8665-isa-0290.fan1.fan1_input} RPM")
+        (label :text "Case Fan 1"))
+      (circularmetric :text "󰈐" 
+                      :value { ( (sensors.it8665-isa-0290.fan2.fan2_input) / 5000 ) * 100 }
+                      :width circularmetricsmallwidth
+                      :fontclass "faniconfont"
+                      :colour "frost4"
+        (label :text "${sensors.it8665-isa-0290.fan2.fan2_input} RPM")
+        (label :text "Case Fan 2"))
+      (circularmetric :text "󰈐" 
+                      :value { ( (sensors.it8665-isa-0290.fan4.fan4_input) / 2700 ) * 100} 
+                      :width circularmetricsmallwidth
+                      :fontclass "faniconfont"
+                      :colour "frost4"
+        (label :text "${sensors.it8665-isa-0290.fan4.fan4_input} RPM")
+        (label :text "Case Fan 3")))))

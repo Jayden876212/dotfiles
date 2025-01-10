@@ -1,0 +1,22 @@
+(defwidget workspaceicon [monitor workspace]
+  (revealer :reveal "${workspaces[monitor].workspaces[workspace]}" :transition "slideright" :duration "500ms"
+    (overlay :visible "${workspaces[monitor].workspaces[workspace]}"
+      (box :class "${workspaces[monitor].workspaces[workspace] ? "polarnight1containerborder2margin" : "polarnight1containerborder2"}"
+           :width 40 
+           :spacing 0
+        (label :text "${workspace}"))
+      (revealer :reveal "${workspaces[monitor].activeworkspaces[workspace]}"
+                :transition "crossfade"
+        (box :width 40 :spacing 0 :class "${workspaces[monitor].workspaces[workspace] ? "frost3containerborder2margin" : "polarnight1containerborder2"}"
+          (label :text "${workspace}"))))))
+
+(defwidget workspaceindicator [monitor]
+  (box :class "container"
+       :halign "start"
+       :width 20
+       :space-evenly "false"
+       :spacing 0
+       :orientation "h"
+    (for workspace in "[1,2,3,4,5,6,7,8,9,0]"
+      (workspaceicon :monitor monitor
+                     :workspace workspace))))

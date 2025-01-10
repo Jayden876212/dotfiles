@@ -1,0 +1,28 @@
+(defwidget tempinfo []
+  (box :class "containerborder-margin-top" :orientation "h" :spacing 0 :height 225 :width 530 :space-evenly "true" :halign "center" :valign "center" 
+
+    ;[text value width ?fontclass colour]
+    (circularmetric :text "${cpuusage}%"
+                    :value {cpuusage}
+                    :width circularmetricwidth
+                    :colour "frost1"
+                    :fontclass "text"
+      (label :text "CPU Usage "))
+    (circularmetric :text "${sensors.k10temp-pci-00c3.Tccd1.temp3_input}°C"
+                    :value {sensors.k10temp-pci-00c3.Tccd1.temp3_input}
+                    :width circularmetricwidth
+                    :colour "frost4"
+                    :fontclass "text"
+      (label :text "CPU Temp. "))
+    (circularmetric :text "${gpuusage}%"
+                    :value {gpuusage}
+                    :width circularmetricwidth
+                    :colour "frost2"
+                    :fontclass "text"
+      (label :text "GPU Usage "))
+    (circularmetric :text "${sensors.amdgpu-pci-0b00.edge.temp1_input}°C"
+                    :value {sensors.amdgpu-pci-0b00.edge.temp1_input}
+                    :width circularmetricwidth
+                    :colour "frost4"
+                    :fontclass "text"
+      (label :text "GPU Temp. "))))

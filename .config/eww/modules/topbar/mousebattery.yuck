@@ -1,0 +1,23 @@
+(defwidget mousebattery []
+  (box :orientation "horizontal"
+       :class "sticker"
+       :height 20
+    (label :class "textnerd"
+           :text "󰍽")
+    (circularmetricbattery :text "${round(mouseinfo[0].detail.percentage, 0)}"
+                           :value {(mouseinfo[0].detail.percentage)}
+                           :width 25
+                           :fontclass "texttopbarsmall"
+                           :colour "frost1")))
+
+(defwidget circularmetricbattery [text value width ?fontclass colour] 
+    (box :halign "center" :width width :height width :orientation "v" :class "containerborder2" 
+        (circular-progress :value value
+                    :thickness 3
+                    :start-at 75
+                    :class "${colour}circularbar"
+          (box :class "containerborder2" 
+            (label :text text
+                   :class fontclass
+                   :limit-width 10
+                   :wrap false)))))

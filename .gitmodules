@@ -1,3 +1,6 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule ".config/eww/scripts/hyprland_workspace_indicator"]
+	path = .config/eww/scripts/hyprland_workspace_indicator
+	url = https://github.com/Jayden876212/hyprland_workspace_indicator

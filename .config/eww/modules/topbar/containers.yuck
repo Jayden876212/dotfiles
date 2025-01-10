@@ -1,0 +1,47 @@
+(defwidget containerright []
+  (box :orientation "horizontal"
+       :halign "end"
+       :valign "center"
+       :class "container"
+       :height 30
+       :spacing 40
+       :space-evenly "false"
+    (sticker
+      (time))
+    (mousebattery)
+    (box :class "sticker" :width 30
+      (button :onclick "pkill -SIGUSR1 waybar" :width 30
+        (systray :class "tray" :width 30)
+      )
+    )
+  )
+)
+
+(defwidget containercenter [monitor]
+  (box :orientation "horizontal"
+       :halign "center"
+       :valign "center"
+       :class "container"
+       :height 30
+       :spacing 40
+       :space-evenly "false"
+      (activewindow :monitor monitor)
+  )
+)
+
+(defwidget containerleft [monitor]
+  (box :orientation "h"
+       :halign "start"
+       :valign "center"
+       :class "container"
+       :height 30
+       :spacing 20
+       :width 20
+       :space-evenly "false"
+    (box :class "sticker"
+           :halign "center"
+           :width 30
+           :space-evenly "false"
+           :orientation "h"
+      (label :text "" :width 22 :halign "center"))
+    (workspaceindicator :monitor monitor)))

@@ -1,0 +1,6 @@
+#! /bin/dash
+
+#available_devices=$(upower -e)
+mouse_device_name=$(upower -e | grep -E '/org/freedesktop/UPower/devices/battery_hidpp_battery*')
+mouse_info=$(upower -i $mouse_device_name | jc --upower)
+echo $mouse_info

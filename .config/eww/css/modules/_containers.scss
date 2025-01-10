@@ -1,0 +1,188 @@
+.background {
+	background-color: rgba(46, 52, 64, 0);
+}
+
+.container {
+	background-color: rgba(46, 52, 64, 0);
+	border-radius: 10px 10px 10px 10px;
+	@include text;
+	color: rgba(255, 255, 255, 1);
+}
+
+.containermargin {
+	background-color: rgba(46, 52, 64, 0);
+	border-radius: 10px 10px 10px 10px;
+	@include text;
+	color: rgba(255, 255, 255, 1);
+	margin-right: 5px;
+}
+
+.containermargin-top {
+	background-color: rgba(46, 52, 64, 0);
+	border-radius: 10px 10px 10px 10px;
+	@include text;
+	color: rgba(255, 255, 255, 1);
+	margin-top: 20px;
+}
+
+.margin {
+	margin-top: 20px;
+}
+
+@mixin border {
+	border-color: #13161b;
+	border-style: solid;
+	border-width: 2px;
+}
+
+@mixin borderwithfill {
+	border-color: #13161b;
+	border-style: solid;
+	border-width: 2px;
+	background-color: rgba(46, 52, 64, $background-transparency);
+}
+
+.containershadow {
+	background-color: rgba(46, 52, 64, 0);
+	border-radius: 10px 10px 10px 10px;
+	@include text;
+	color: rgba(255, 255, 255, 1);
+	box-shadow: inset 0 0 1px 1.25px #13161b;
+}
+
+$borderradiusdefault: 10;
+$borderradiuscircle: 50%;
+
+.containerborder {
+	@include border;
+	border-radius: $borderradiusdefault;
+}
+
+.containerborder-margin-top {
+	@include border;
+	border-radius: $borderradiusdefault;
+	margin-top: 20px;
+}
+
+.containerborder2 {
+	@include border;
+	border-radius: $borderradiuscircle;
+}
+
+.polarnight1outlinecontainerborder {
+	@include borderwithfill;
+	border-radius: $borderradiusdefault;
+	border-color: $nordpolarnight1;
+}
+
+.polarnight2outlinecontainerborder {
+	@include borderwithfill;
+	border-radius: $borderradiusdefault;
+	border-color: $nordpolarnight2;
+}
+
+.polarnight3outlinecontainerborder {
+	@include borderwithfill;
+	border-radius: $borderradiusdefault;
+	border-color: $nordpolarnight3;
+}
+
+.polarnight4outlinecontainerborder {
+	@include borderwithfill;
+	border-radius: $borderradiusdefault;
+	border-color: $nordpolarnight4;
+}
+
+.frost1outlinecontainerborder {
+	@include borderwithfill;
+	border-radius: $borderradiusdefault;
+	border-color: $nordfrost1;
+}
+
+.frost2outlinecontainerborder {
+	@include borderwithfill;
+	border-radius: $borderradiusdefault;
+	border-color: $nordfrost2;
+}
+
+.frost3outlinecontainerborder {
+	@include borderwithfill;
+	border-radius: $borderradiusdefault;
+	border-color: $nordfrost3;
+}
+
+.frost4outlinecontainerborder {
+	@include borderwithfill;
+	border-radius: $borderradiusdefault;
+	border-color: $nordfrost4;
+}
+
+.polarnight1containerborder2 {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordpolarnight1, $background-transparency);
+}
+
+.polarnight2containerborder2 {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordpolarnight2, $background-transparency);
+}
+
+.polarnight3containerborder2 {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordpolarnight3, $background-transparency);
+}
+
+.polarnight4containerborder2 {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordpolarnight4, $background-transparency);
+}
+
+.polarnight1containerborder2margin {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordpolarnight1, $background-transparency);
+	margin-right: 10px;
+}
+
+.frost1containerborder2 {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordfrost1, 1);
+}
+
+.frost2containerborder2 {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordfrost2, 1);
+}
+
+.frost3containerborder2 {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordfrost3, 1);
+}
+
+.frost4containerborder2 {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordfrost4, 1);
+}
+
+.frost3containerborder2margin {
+	@include border;
+	border-radius: $borderradiuscircle;
+	background-color: rgba($nordfrost3, 1);
+	margin-right: 10px;
+}
+
+.sticker {
+	background-color: rgba(46, 52, 64, $background-transparency);
+	@include border;
+	border-radius: $borderradiusdefault;
+	@include text;
+	color: rgba(255, 255, 255, 1);
+}

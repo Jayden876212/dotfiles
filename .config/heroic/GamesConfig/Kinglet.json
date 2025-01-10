@@ -1,0 +1,34 @@
+{
+  "Kinglet": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": true,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "targetExe": "/home/tdljayden/Games/Heroic/SidMeiersCivilizationVI/Base/Binaries/Win64EOS/CivilizationVI_DX12.exe",
+    "useGameMode": true,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "wineVersion": {
+      "bin": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-latest/bin/wine",
+      "name": "Wine - Wine-GE-latest",
+      "type": "wine",
+      "lib": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-latest/lib64",
+      "lib32": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-latest/lib",
+      "wineserver": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-latest/bin/wineserver"
+    },
+    "winePrefix": "/home/tdljayden/Games/Heroic/Prefixes/default/Sid Meiers Civilization VI",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

@@ -1,0 +1,7 @@
+(defwidget time []
+  (box :orientation "horizontal"
+       :class "text"
+       :height 20
+    (label :text {formattime(EWW_TIME, "%d/%m/%y %H:%M:%S")})
+  )
+)

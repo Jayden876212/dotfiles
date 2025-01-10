@@ -1,0 +1,198 @@
+// circularbar mixins
+
+@mixin circularbar {
+	background-color: rgba(46, 52, 64, 1);
+}
+
+// circularbar sizes and colours
+
+.greencircularbar {
+	color: $nordgreen;
+}
+
+.redcircularbar {
+	color: $nordred;
+}
+
+.pinkcircularbar {
+	color: $nordpink;
+}
+
+.yellowcircularbar {
+	color: $nordyellow;
+}
+
+.frost1circularbar {
+	color: $nordfrost1;
+}
+
+.frost2circularbar {
+	color: $nordfrost2;
+}
+
+.frost3circularbar {
+	color: $nordfrost3;
+}
+
+.frost4circularbar {
+	color: $nordfrost4;
+}
+
+// progressbar variables
+
+$sizeprogressbarlarge: 35px;
+$sizeprogressbarsmall: 15px;
+
+// progressbar mixins
+
+@mixin progressbar {
+	background-color: rgba(0, 0, 0, 0);
+
+	trough {
+		@include border;
+		border-radius: $borderradiusdefault;
+		background-color: rgba(0, 0, 0, 0);
+		min-width: 1px;
+	}
+
+	progress {
+		@include border;
+		border-radius: $borderradiusdefault;
+	}
+}
+
+@mixin progressbarlarge {
+	@include progressbar;
+	trough {
+		min-height: $sizeprogressbarlarge;
+	}
+
+	progress {
+		min-height: $sizeprogressbarlarge;
+	}
+}
+
+@mixin progressbarsmall {
+	@include progressbar;
+	trough {
+		min-height: $sizeprogressbarsmall;
+	}
+
+	progress {
+		min-height: $sizeprogressbarsmall;
+	}
+}
+
+// progressbar colours and sizes
+
+.greenprogressbarlarge {
+	@include progressbarlarge;
+	progress {
+		background-color: $nordgreen;
+	}
+}
+
+.greenprogressbarsmall {
+	@include progressbarsmall;
+	progress {
+		background-color: $nordgreen;
+	}
+}
+
+.redprogressbarlarge {
+	@include progressbarlarge;
+	progress {
+		background-color: $nordred;
+	}
+}
+
+.redprogressbarsmall {
+	@include progressbarsmall;
+	progress {
+		background-color: $nordred;
+	}
+}
+
+.pinkprogressbarlarge {
+	@include progressbarlarge;
+	progress {
+		background-color: $nordpink;
+	}
+}
+
+.pinkprogressbarsmall {
+	@include progressbarsmall;
+	progress {
+		background-color: $nordpink;
+	}
+}
+
+.yellowprogressbarlarge {
+	@include progressbarlarge;
+	progress {
+		background-color: $nordyellow;
+	}
+}
+
+.yellowprogressbarsmall {
+	@include progressbarsmall;
+	progress {
+		background-color: $nordyellow;
+	}
+}
+
+.frost1progressbarlarge {
+	@include progressbarlarge;
+	progress {
+		background-color: $nordfrost1;
+	}
+}
+
+.frost1progressbarsmall {
+	@include progressbarsmall;
+	progress {
+		background-color: $nordfrost1;
+	}
+}
+
+.frost2progressbarlarge {
+	@include progressbarlarge;
+	progress {
+		background-color: $nordfrost2;
+	}
+}
+
+.frost2progressbarsmall {
+	@include progressbarsmall;
+	progress {
+		background-color: $nordfrost2;
+	}
+}
+
+.frost3progressbarlarge {
+	@include progressbarlarge;
+	progress {
+		background-color: $nordfrost3;
+	}
+}
+
+.frost3progressbarsmall {
+	@include progressbarsmall;
+	progress {
+		background-color: $nordfrost3;
+	}
+}
+
+.frost4progressbarlarge {
+	@include progressbarlarge;
+	progress {
+		background-color: $nordfrost4;
+	}
+}
+
+.frost4progressbarsmall {
+	@include progressbarsmall;
+	progress {
+		background-color: $nordfrost4;
+	}
+}

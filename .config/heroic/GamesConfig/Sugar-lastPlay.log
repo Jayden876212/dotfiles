@@ -1,0 +1,790 @@
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallVkd3d": false,
+	"preferSystemLibs": false,
+	"enableEsync": false,
+	"enableFsync": true,
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"showFps": false,
+	"useGameMode": false,
+	"language": "",
+	"wineVersion": {
+		"bin": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/bin/wine",
+		"name": "Wine - Wine-GE-Proton8-13",
+		"type": "wine",
+		"lib": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib64",
+		"lib32": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib",
+		"wineserver": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/bin/wineserver"
+	},
+	"winePrefix": "/home/tdljayden/Games/Heroic/Prefixes/default/Rocket League",
+	"wineCrossoverBottle": ""
+}
+
+Game launched at: Sat Sep 16 2023 15:53:58 GMT+0100 (GMT+01:00)
+
+System Info:
+Heroic Version: 2.9.1 Boa Hancock
+Legendary Version:  0.20.32 Dark Energy (hotfix #6)
+GOGdl Version: 0.7.3
+Nile Version: 1.0.0 Jonathan Joestar
+
+Electron Version: 24.4.1
+Chrome Version: 112.0.5615.204
+NodeJS Version: 18.14.0
+
+OS: Gentoo KERNEL: 6.1.53-gentoo-dist ARCH: x64
+CPU: AMD Ryzen 5 5600X 6-Core Processor @3.7 GOVERNOR: schedutil
+RAM: Total: 15.53 GiB Available: 11.77 GiB
+GRAPHICS: GPU0: Navi 23 [Radeon RX 6600/6600 XT/6600M] VRAM: 1MB 
+PROTOCOL: wayland
+
+Launch Command: LD_PRELOAD= WINEPREFIX="/home/tdljayden/Games/Heroic/Prefixes/default/Rocket League" WINEDLLOVERRIDES=winemenubuilder.exe=d WINE_FULLSCREEN_FSR=0 WINEFSYNC=1 ORIG_LD_LIBRARY_PATH= LD_LIBRARY_PATH=/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib64:/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib GST_PLUGIN_SYSTEM_PATH_1_0=/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib64/gstreamer-1.0:/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib/gstreamer-1.0 WINEDLLPATH=/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib64/wine:/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib/wine /opt/heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Sugar --language en --wine /home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/bin/wine 
+
+Game Log:
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching Sugar...
+fsync: up and running.
+wine: RLIMIT_NICE is <= 20, unable to use setpriority safely
+
+Legendary update available!
+- New version: 0.20.33 - "Undue Alarm"
+- Release summary:
+ [*] Improved handling of SDL changes
+ [*] Added safeguards to prevent two simultaneous instances from corrupting the database
+ [*] Added support for running uninstallers
+ [*] More gracefully handles account errors
+See full changelog for additional details.
+- Release URL: https://legendary.gl/release/0.20.33
+
+- Download URL: https://legendary.gl/release/download/0.20.33/legendary
+002c:fixme:winediag:LdrInitializeThunk wine-staging 8.0 is a testing version containing experimental patches.
+002c:fixme:winediag:LdrInitializeThunk Please mention your exact version when filing bug reports on winehq.org.
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+0070:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0070:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0070:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0070:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0084:err:hid:udev_bus_init UDEV monitor creation failed
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Invalid argument
+ioctl (GFEATURE): Invalid argument
+ioctl (GFEATURE): Invalid argument
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+ioctl (GFEATURE): Broken pipe
+00d0:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000001B7FF80
+0180:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0180:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0180:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0180:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000034FF88, 000000000021FAC0: stub!
+018c:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+018c:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+018c:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000092ACA8, 0000000001B2FAA0: stub!
+00cc:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+00cc:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+info:  Game: RocketLeague.exe
+info:  DXVK: v2.3
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x2d4ad3fd0
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_EXT_surface_maintenance1
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+info:  AMD Radeon RX 6600 (RADV NAVI23):
+info:    Driver : radv 23.1.6
+info:    Memory Heap[0]: 
+info:      Size: 7950 MiB
+info:      Flags: 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[5]: Property Flags = 0xe
+info:      Memory Type[6]: Property Flags = 0xe
+info:      Memory Type[8]: Property Flags = 0xc6
+info:      Memory Type[10]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 8176 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:      Memory Type[3]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0x7
+info:      Memory Type[7]: Property Flags = 0xc1
+info:      Memory Type[9]: Property Flags = 0xc7
+info:  D3D11InternalCreateDevice: Maximum supported feature level: D3D_FEATURE_LEVEL_12_0
+info:  D3D11InternalCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_0
+info:  Device properties:
+info:    Device : AMD Radeon RX 6600 (RADV NAVI23)
+info:    Driver : radv 23.1.6
+info:  Enabled device extensions:
+info:    VK_AMD_memory_overallocation_behavior
+info:    VK_AMD_shader_fragment_mask
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_memory_priority
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_shader_stencil_export
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:  Device features:
+info:    robustBufferAccess                     : 1
+info:    fullDrawIndexUint32                    : 1
+info:    imageCubeArray                         : 1
+info:    independentBlend                       : 1
+info:    geometryShader                         : 1
+info:    tessellationShader                     : 1
+info:    sampleRateShading                      : 1
+info:    dualSrcBlend                           : 1
+info:    logicOp                                : 1
+info:    multiDrawIndirect                      : 1
+info:    drawIndirectFirstInstance              : 1
+info:    depthClamp                             : 1
+info:    depthBiasClamp                         : 1
+info:    fillModeNonSolid                       : 1
+info:    depthBounds                            : 1
+info:    wideLines                              : 1
+info:    multiViewport                          : 1
+info:    samplerAnisotropy                      : 1
+info:    textureCompressionBC                   : 1
+info:    occlusionQueryPrecise                  : 1
+info:    pipelineStatisticsQuery                : 1
+info:    vertexPipelineStoresAndAtomics         : 1
+info:    fragmentStoresAndAtomics               : 1
+info:    shaderImageGatherExtended              : 1
+info:    shaderClipDistance                     : 1
+info:    shaderCullDistance                     : 1
+info:    shaderFloat64                          : 1
+info:    shaderInt64                            : 1
+info:    variableMultisampleRate                : 1
+info:    shaderResourceResidency                : 1
+info:    shaderResourceMinLod                   : 1
+info:    sparseBinding                          : 1
+info:    sparseResidencyBuffer                  : 1
+info:    sparseResidencyImage2D                 : 1
+info:    sparseResidencyImage3D                 : 1
+info:    sparseResidency2Samples                : 0
+info:    sparseResidency4Samples                : 0
+info:    sparseResidency8Samples                : 0
+info:    sparseResidency16Samples               : 0
+info:    sparseResidencyAliased                 : 1
+info:  Vulkan 1.1
+info:    shaderDrawParameters                   : 1
+info:  Vulkan 1.2
+info:    samplerMirrorClampToEdge               : 1
+info:    drawIndirectCount                      : 1
+info:    samplerFilterMinmax                    : 1
+info:    hostQueryReset                         : 1
+info:    timelineSemaphore                      : 1
+info:    bufferDeviceAddress                    : 0
+info:    shaderOutputViewportIndex              : 1
+info:    shaderOutputLayer                      : 1
+info:    vulkanMemoryModel                      : 1
+info:  Vulkan 1.3
+info:    robustImageAccess                      : 0
+info:    pipelineCreationCacheControl           : 1
+info:    shaderDemoteToHelperInvocation         : 1
+info:    shaderZeroInitializeWorkgroupMemory    : 0
+info:    synchronization2                       : 1
+info:    dynamicRendering                       : 1
+info:  VK_AMD_shader_fragment_mask
+info:    extension supported                    : 1
+info:  VK_EXT_attachment_feedback_loop_layout
+info:    attachmentFeedbackLoopLayout           : 0
+info:  VK_EXT_conservative_rasterization
+info:    extension supported                    : 1
+info:  VK_EXT_custom_border_color
+info:    customBorderColors                     : 1
+info:    customBorderColorWithoutFormat         : 1
+info:  VK_EXT_depth_clip_enable
+info:    depthClipEnable                        : 1
+info:  VK_EXT_depth_bias_control
+info:    depthBiasControl                       : 0
+info:    leastRepresentableValueForceUnormRepresentation : 0
+info:    floatRepresentation                    : 0
+info:    depthBiasExact                         : 0
+info:  VK_EXT_extended_dynamic_state3
+info:    extDynamicState3AlphaToCoverageEnable  : 1
+info:    extDynamicState3DepthClipEnable        : 1
+info:    extDynamicState3RasterizationSamples   : 1
+info:    extDynamicState3SampleMask             : 1
+info:    extDynamicState3LineRasterizationMode  : 1
+info:  VK_EXT_fragment_shader_interlock
+info:    fragmentShaderSampleInterlock          : 0
+info:    fragmentShaderPixelInterlock           : 0
+info:  VK_EXT_full_screen_exclusive
+info:    extension supported                    : 0
+info:  VK_EXT_graphics_pipeline_library
+info:    graphicsPipelineLibrary                : 1
+info:  VK_EXT_line_rasterization
+info:    rectangularLines                       : 1
+info:    smoothLines                            : 0
+info:  VK_EXT_memory_budget
+info:    extension supported                    : 1
+info:  VK_EXT_memory_priority
+info:    memoryPriority                         : 1
+info:  VK_EXT_non_seamless_cube_map
+info:    nonSeamlessCubeMap                     : 0
+info:  VK_EXT_robustness2
+info:    robustBufferAccess2                    : 1
+info:    robustImageAccess2                     : 1
+info:    nullDescriptor                         : 1
+info:  VK_EXT_shader_module_identifier
+info:    shaderModuleIdentifier                 : 1
+info:  VK_EXT_shader_stencil_export
+info:    extension supported                    : 1
+info:  VK_EXT_swapchain_colorspace
+info:    extension supported                    : 0
+info:  VK_EXT_swapchain_maintenance1
+info:    swapchainMaintenance1                  : 1
+info:  VK_EXT_hdr_metadata
+info:    extension supported                    : 0
+info:  VK_EXT_transform_feedback
+info:    transformFeedback                      : 1
+info:    geometryStreams                        : 1
+info:  VK_EXT_vertex_attribute_divisor
+info:    vertexAttributeInstanceRateDivisor     : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32
+info:    extension supported                    : 1
+info:  VK_KHR_external_semaphore_win32
+info:    extension supported                    : 1
+info:  VK_KHR_maintenance5
+info:    maintenance5                           : 0
+info:  VK_KHR_present_id
+info:    presentId                              : 1
+info:  VK_KHR_present_wait
+info:    presentWait                            : 1
+info:  VK_NVX_binary_import
+info:    extension supported                    : 0
+info:  VK_NVX_image_view_handle
+info:    extension supported                    : 0
+info:  VK_KHR_win32_keyed_mutex
+info:    extension supported                    : 0
+info:  Queue families:
+info:    Graphics : 0
+info:    Transfer : 1
+info:    Sparse   : 0
+info:  Memory type mask for sparse resources: 0x7ad
+info:  DXVK: Read 323 valid state cache entries
+info:  DXVK: Graphics pipeline libraries supported
+info:  DXGI: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  Game: RocketLeague.exe
+info:  DXVK: v2.3
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x2d4ad3fd0
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_EXT_surface_maintenance1
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+info:  AMD Radeon RX 6600 (RADV NAVI23):
+info:    Driver : radv 23.1.6
+info:    Memory Heap[0]: 
+info:      Size: 7950 MiB
+info:      Flags: 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[5]: Property Flags = 0xe
+info:      Memory Type[6]: Property Flags = 0xe
+info:      Memory Type[8]: Property Flags = 0xc6
+info:      Memory Type[10]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 8176 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:      Memory Type[3]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0x7
+info:      Memory Type[7]: Property Flags = 0xc1
+info:      Memory Type[9]: Property Flags = 0xc7
+0144:fixme:imm:ImeSetActiveContext himc 0000000000010026, flag 0 stub!
+00cc:fixme:imm:ImeSetActiveContext himc 0000000000010064, flag 0x1 stub!
+018c:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+018c:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+018c:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000092ADC8, 0000000001B2FAA0: stub!
+018c:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+018c:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+018c:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000928AB8, 0000000001B2FAA0: stub!
+01cc:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
+01cc:fixme:wbemprox:client_security_SetBlanket 00000001ED4A0E40, 0000000000D341D0, 10, 0, (null), 3, 3, 0000000000000000, 0
+01cc:fixme:wbemprox:client_security_Release 00000001ED4A0E40
+00cc:fixme:system:NtUserSystemParametersInfo Unimplemented action: 59 (SPI_SETSTICKYKEYS)
+00cc:fixme:system:NtUserSystemParametersInfo Unimplemented action: 53 (SPI_SETTOGGLEKEYS)
+00cc:fixme:system:NtUserSystemParametersInfo Unimplemented action: 51 (SPI_SETFILTERKEYS)
+info:  D3D11InternalCreateDevice: Maximum supported feature level: D3D_FEATURE_LEVEL_12_0
+info:  D3D11InternalCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_0
+info:  Device properties:
+info:    Device : AMD Radeon RX 6600 (RADV NAVI23)
+info:    Driver : radv 23.1.6
+info:  Enabled device extensions:
+info:    VK_AMD_memory_overallocation_behavior
+info:    VK_AMD_shader_fragment_mask
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_memory_priority
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_shader_stencil_export
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:  Device features:
+info:    robustBufferAccess                     : 1
+info:    fullDrawIndexUint32                    : 1
+info:    imageCubeArray                         : 1
+info:    independentBlend                       : 1
+info:    geometryShader                         : 1
+info:    tessellationShader                     : 1
+info:    sampleRateShading                      : 1
+info:    dualSrcBlend                           : 1
+info:    logicOp                                : 1
+info:    multiDrawIndirect                      : 1
+info:    drawIndirectFirstInstance              : 1
+info:    depthClamp                             : 1
+info:    depthBiasClamp                         : 1
+info:    fillModeNonSolid                       : 1
+info:    depthBounds                            : 1
+info:    wideLines                              : 1
+info:    multiViewport                          : 1
+info:    samplerAnisotropy                      : 1
+info:    textureCompressionBC                   : 1
+info:    occlusionQueryPrecise                  : 1
+info:    pipelineStatisticsQuery                : 1
+info:    vertexPipelineStoresAndAtomics         : 1
+info:    fragmentStoresAndAtomics               : 1
+info:    shaderImageGatherExtended              : 1
+info:    shaderClipDistance                     : 1
+info:    shaderCullDistance                     : 1
+info:    shaderFloat64                          : 1
+info:    shaderInt64                            : 1
+info:    variableMultisampleRate                : 1
+info:    shaderResourceResidency                : 1
+info:    shaderResourceMinLod                   : 1
+info:    sparseBinding                          : 1
+info:    sparseResidencyBuffer                  : 1
+info:    sparseResidencyImage2D                 : 1
+info:    sparseResidencyImage3D                 : 1
+info:    sparseResidency2Samples                : 0
+info:    sparseResidency4Samples                : 0
+info:    sparseResidency8Samples                : 0
+info:    sparseResidency16Samples               : 0
+info:    sparseResidencyAliased                 : 1
+info:  Vulkan 1.1
+info:    shaderDrawParameters                   : 1
+info:  Vulkan 1.2
+info:    samplerMirrorClampToEdge               : 1
+info:    drawIndirectCount                      : 1
+info:    samplerFilterMinmax                    : 1
+info:    hostQueryReset                         : 1
+info:    timelineSemaphore                      : 1
+info:    bufferDeviceAddress                    : 0
+info:    shaderOutputViewportIndex              : 1
+info:    shaderOutputLayer                      : 1
+info:    vulkanMemoryModel                      : 1
+info:  Vulkan 1.3
+info:    robustImageAccess                      : 0
+info:    pipelineCreationCacheControl           : 1
+info:    shaderDemoteToHelperInvocation         : 1
+info:    shaderZeroInitializeWorkgroupMemory    : 0
+info:    synchronization2                       : 1
+info:    dynamicRendering                       : 1
+info:  VK_AMD_shader_fragment_mask
+info:    extension supported                    : 1
+info:  VK_EXT_attachment_feedback_loop_layout
+info:    attachmentFeedbackLoopLayout           : 0
+info:  VK_EXT_conservative_rasterization
+info:    extension supported                    : 1
+info:  VK_EXT_custom_border_color
+info:    customBorderColors                     : 1
+info:    customBorderColorWithoutFormat         : 1
+info:  VK_EXT_depth_clip_enable
+info:    depthClipEnable                        : 1
+info:  VK_EXT_depth_bias_control
+info:    depthBiasControl                       : 0
+info:    leastRepresentableValueForceUnormRepresentation : 0
+info:    floatRepresentation                    : 0
+info:    depthBiasExact                         : 0
+info:  VK_EXT_extended_dynamic_state3
+info:    extDynamicState3AlphaToCoverageEnable  : 1
+info:    extDynamicState3DepthClipEnable        : 1
+info:    extDynamicState3RasterizationSamples   : 1
+info:    extDynamicState3SampleMask             : 1
+info:    extDynamicState3LineRasterizationMode  : 1
+info:  VK_EXT_fragment_shader_interlock
+info:    fragmentShaderSampleInterlock          : 0
+info:    fragmentShaderPixelInterlock           : 0
+info:  VK_EXT_full_screen_exclusive
+info:    extension supported                    : 0
+info:  VK_EXT_graphics_pipeline_library
+info:    graphicsPipelineLibrary                : 1
+info:  VK_EXT_line_rasterization
+info:    rectangularLines                       : 1
+info:    smoothLines                            : 0
+info:  VK_EXT_memory_budget
+info:    extension supported                    : 1
+info:  VK_EXT_memory_priority
+info:    memoryPriority                         : 1
+info:  VK_EXT_non_seamless_cube_map
+info:    nonSeamlessCubeMap                     : 0
+info:  VK_EXT_robustness2
+info:    robustBufferAccess2                    : 1
+info:    robustImageAccess2                     : 1
+info:    nullDescriptor                         : 1
+info:  VK_EXT_shader_module_identifier
+info:    shaderModuleIdentifier                 : 1
+info:  VK_EXT_shader_stencil_export
+info:    extension supported                    : 1
+info:  VK_EXT_swapchain_colorspace
+info:    extension supported                    : 0
+info:  VK_EXT_swapchain_maintenance1
+info:    swapchainMaintenance1                  : 1
+info:  VK_EXT_hdr_metadata
+info:    extension supported                    : 0
+info:  VK_EXT_transform_feedback
+info:    transformFeedback                      : 1
+info:    geometryStreams                        : 1
+info:  VK_EXT_vertex_attribute_divisor
+info:    vertexAttributeInstanceRateDivisor     : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32
+info:    extension supported                    : 1
+info:  VK_KHR_external_semaphore_win32
+info:    extension supported                    : 1
+info:  VK_KHR_maintenance5
+info:    maintenance5                           : 0
+info:  VK_KHR_present_id
+info:    presentId                              : 1
+info:  VK_KHR_present_wait
+info:    presentWait                            : 1
+info:  VK_NVX_binary_import
+info:    extension supported                    : 0
+info:  VK_NVX_image_view_handle
+info:    extension supported                    : 0
+info:  VK_KHR_win32_keyed_mutex
+info:    extension supported                    : 0
+info:  Queue families:
+info:    Graphics : 0
+info:    Transfer : 1
+info:    Sparse   : 0
+info:  Memory type mask for sparse resources: 0x7ad
+info:  DXVK: Read 323 valid state cache entries
+info:  DXVK: Graphics pipeline libraries supported
+info:  DXGI: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  DXVK: Using 12 compiler threads
+info:  AMD Radeon RX 6600 (RADV NAVI23):
+info:    Driver : radv 23.1.6
+info:    Memory Heap[0]: 
+info:      Size: 7950 MiB
+info:      Flags: 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[5]: Property Flags = 0xe
+info:      Memory Type[6]: Property Flags = 0xe
+info:      Memory Type[8]: Property Flags = 0xc6
+info:      Memory Type[10]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 8176 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:      Memory Type[3]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0x7
+info:      Memory Type[7]: Property Flags = 0xc1
+info:      Memory Type[9]: Property Flags = 0xc7
+0050:fixme:mountmgr:harddisk_ioctl The DISK_PARTITION_INFO and DISK_DETECTION_INFO structures will not be filled
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+info:  AMD Radeon RX 6600 (RADV NAVI23):
+info:    Driver : radv 23.1.6
+info:    Memory Heap[0]: 
+info:      Size: 7950 MiB
+info:      Flags: 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[5]: Property Flags = 0xe
+info:      Memory Type[6]: Property Flags = 0xe
+info:      Memory Type[8]: Property Flags = 0xc6
+info:      Memory Type[10]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 8176 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:      Memory Type[3]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0x7
+info:      Memory Type[7]: Property Flags = 0xc1
+info:      Memory Type[9]: Property Flags = 0xc7
+info:  Presenter: Actual swap chain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR (dynamic: no)
+info:    Buffer size:  1920x1080
+info:    Image count:  6
+info:    Exclusive FS: 1
+info:  Setting display mode: 1920x1080@60
+info:  Setting display mode: 1920x1080@60
+warn:  DXGI: MakeWindowAssociation: Ignoring flags
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+info:  AMD Radeon RX 6600 (RADV NAVI23):
+info:    Driver : radv 23.1.6
+info:    Memory Heap[0]: 
+info:      Size: 7950 MiB
+info:      Flags: 0x0
+info:      Memory Type[2]: Property Flags = 0x6
+info:      Memory Type[5]: Property Flags = 0xe
+info:      Memory Type[6]: Property Flags = 0xe
+info:      Memory Type[8]: Property Flags = 0xc6
+info:      Memory Type[10]: Property Flags = 0xce
+info:    Memory Heap[1]: 
+info:      Size: 8176 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[1]: Property Flags = 0x1
+info:      Memory Type[3]: Property Flags = 0x7
+info:      Memory Type[4]: Property Flags = 0x7
+info:      Memory Type[7]: Property Flags = 0xc1
+info:      Memory Type[9]: Property Flags = 0xc7
+00cc:fixme:imm:ImmReleaseContext (000000000001005E, 0000000000010064): stub
+018c:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+018c:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+018c:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000934228, 0000000001B2FAA0: stub!
+018c:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+018c:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+018c:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009342A8, 0000000001B2FAA0: stub!
+Warning, Material Ball_Football.TranslucentMaterials.Mat_Football_Translucent missing bUsedWithStaticLighting=True!
+info:  Presenter: Actual swap chain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR (dynamic: no)
+info:    Buffer size:  1920x1080
+info:    Image count:  6
+info:    Exclusive FS: 1
+info:  Presenter: Actual swap chain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR (dynamic: no)
+info:    Buffer size:  1920x1080
+info:    Image count:  6
+info:    Exclusive FS: 1
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+018c:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+018c:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+018c:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+018c:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+018c:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+018c:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+018c:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000928D70, 10002, 0000000001B2ECA0: stub
+018c:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000928CE0, 10002, 0000000001B2ECA0: stub
+018c:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+018c:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+018c:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+018c:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+018c:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+018c:fixme:uiautomation:nc_provider_GetPatternProvider 000000000091BC60, 10002, 0000000001B2ECA0: stub
+018c:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000091BBD0, 10002, 0000000001B2ECA0: stub
+018c:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+018c:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+018c:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+018c:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+018c:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+018c:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+018c:fixme:uiautomation:nc_provider_GetPatternProvider 00000000009351B0, 10002, 0000000001B2ECA0: stub
+018c:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000935120, 10002, 0000000001B2ECA0: stub
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+018c:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+018c:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+018c:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+018c:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+018c:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+018c:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000928D70, 10002, 0000000001B2ECA0: stub
+018c:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000928CE0, 10002, 0000000001B2ECA0: stub
+00cc:fixme:win:NtUserFlashWindowEx 0x4ea400 - semi-stub
+00cc:fixme:win:NtUserFlashWindowEx 0x4ed010 - semi-stub
+00cc:fixme:win:NtUserFlashWindowEx 0x4ed010 - semi-stub
+Warning, Material Ball_Football.TranslucentMaterials.Mat_Football_Translucent missing bUsedWithStaticLighting=True!
+ScriptWarning, Something went wrong uploading save data 56f17d43972c461e9412b91ee174ab49 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:07A8
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_0x1:__StatusTriggerManager_TA__RegisterTriggers_0x1
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_0x1:__CrumbTrails_TA__SetupCompletionCondition_0x1
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+ScriptWarning, Something went wrong uploading save data 56f17d43972c461e9412b91ee174ab49 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:07A8
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_0x1:__StatusTriggerManager_TA__RegisterTriggers_0x1
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_0x1:__CrumbTrails_TA__SetupCompletionCondition_0x1
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+ScriptWarning, Something went wrong uploading save data 56f17d43972c461e9412b91ee174ab49 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:07A8
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_0x1:__StatusTriggerManager_TA__RegisterTriggers_0x1
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_0x1:__CrumbTrails_TA__SetupCompletionCondition_0x1
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+ScriptWarning, Something went wrong uploading save data 56f17d43972c461e9412b91ee174ab49 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:07A8
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_0x1:__StatusTriggerManager_TA__RegisterTriggers_0x1
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_0x1:__CrumbTrails_TA__SetupCompletionCondition_0x1
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+ScriptWarning, Something went wrong uploading save data 56f17d43972c461e9412b91ee174ab49 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:07A8
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_0x1:__StatusTriggerManager_TA__RegisterTriggers_0x1
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_0x1:__CrumbTrails_TA__SetupCompletionCondition_0x1
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+ScriptWarning, Something went wrong uploading save data 56f17d43972c461e9412b91ee174ab49 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:07A8
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_0x1:__StatusTriggerManager_TA__RegisterTriggers_0x1
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_0x1:__CrumbTrails_TA__SetupCompletionCondition_0x1
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+ScriptWarning, Something went wrong uploading save data 56f17d43972c461e9412b91ee174ab49 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:07A8
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_0x1:__StatusTriggerManager_TA__RegisterTriggers_0x1
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_0x1:__CrumbTrails_TA__SetupCompletionCondition_0x1
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+Could not find package for asset title_generic_T_SF
+Could not find package for asset title_generic_T_SF
+00cc:fixme:secur32:get_cipher_algid unknown algorithm 23
+00cc:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+info:  Restoring display mode: 1920x1080@60
+info:  Setting display mode: 1920x1080@60
+info:  Restoring display mode: 1920x1080@60
+info:  Setting display mode: 1920x1080@60
+info:  Restoring display mode: 1920x1080@144
+info:  Setting display mode: 1920x1080@144
+00cc:err:ole:CoUninitialize Mismatched CoUninitialize
+00cc:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 00000000004EFEF8

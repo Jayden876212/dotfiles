@@ -1,0 +1,5 @@
+[Plugins]
+kdeconnect_batteryEnabled=true
+kdeconnect_pingEnabled=true
+kdeconnect_presenterEnabled=true
+kdeconnect_sendnotificationsEnabled=true

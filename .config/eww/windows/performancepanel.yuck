@@ -1,0 +1,51 @@
+(defwidget performancepanelbox []
+  (box :class "sticker" :orientation "v" :space-evenly "false" :spacing 0 :valign "center" :height 1020
+    (meminfo)
+    (tempinfo)
+    (box :class "containermargin-top" :orientation "h" :space-evenly "false" :spacing 20 :halign "center" :valign "center"
+      (driveinfo)
+      (faninfo))
+    (fetch)))
+
+(include "./modules/performancepanel/meminfo.yuck")
+(include "./modules/performancepanel/tempinfo.yuck")
+(include "./modules/performancepanel/driveinfo.yuck")
+(include "./modules/performancepanel/faninfo.yuck")
+(include "./modules/performancepanel/fetch.yuck")
+(include "./modules/performancepanel/progressbars.yuck")
+
+(defwindow performancepanel0
+           :monitor 0
+           :geometry (geometry :x "10px"
+                               :y "10px"
+                               :width "30%"
+                               :height "94.5%"
+                               :anchor "top left")
+           :stacking "overlay"
+           :exclusive false
+  (box 
+    (performancepanelbox)))
+
+(defwindow performancepanel1
+           :monitor 1
+           :geometry (geometry :x "10px"
+                               :y "10px"
+                               :width "30%"
+                               :height "94.5%"
+                               :anchor "top left")
+           :stacking "overlay"
+           :exclusive false
+  (box 
+    (performancepanelbox)))
+
+(defwindow performancepanel2
+           :monitor 2
+           :geometry (geometry :x "10px"
+                               :y "10px"
+                               :width "30%"
+                               :height "94.5%"
+                               :anchor "top left")
+           :stacking "overlay"
+           :exclusive false
+  (box 
+    (performancepanelbox)))

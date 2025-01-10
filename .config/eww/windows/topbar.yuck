@@ -1,0 +1,63 @@
+(include "./modules/topbar/containers.yuck")
+(include "./modules/topbar/sticker.yuck")
+(include "./modules/topbar/activewindow.yuck")
+(include "./modules/topbar/time.yuck")
+(include "./modules/topbar/workspaces.yuck")
+(include "./modules/topbar/mousebattery.yuck")
+
+(defwindow topbar0
+           :monitor 0
+           :geometry (geometry :x "0%"
+                               :y "10px"
+                               :width "99%"
+                               :height "30px"
+                               :anchor "top center")
+           :stacking "fg"
+           :exclusive true
+           :reserve (struts :distance "40px" :side "top")
+           :windowtype "dock"
+           :wm-ignore false
+  (box 
+    (containerleft :monitor 0)
+    (containercenter :monitor 0)
+    (containerright)
+  )
+)
+
+(defwindow topbar1
+           :monitor 1
+           :geometry (geometry :x "0%"
+                               :y "10px"
+                               :width "99%"
+                               :height "30px"
+                               :anchor "top center")
+           :stacking "fg"
+           :exclusive true
+           :reserve (struts :distance "40px" :side "top")
+           :windowtype "dock"
+           :wm-ignore false
+  (box 
+    (containerleft :monitor 1)
+    (containercenter :monitor 1)
+    (containerright)
+  )
+)
+
+(defwindow topbar2
+           :monitor 2
+           :geometry (geometry :x "0%"
+                               :y "10px"
+                               :width "99%"
+                               :height "30px"
+                               :anchor "top center")
+           :stacking "fg"
+           :exclusive true
+           :reserve (struts :distance "40px" :side "top")
+           :windowtype "dock"
+           :wm-ignore false
+  (box 
+    (containerleft :monitor 2)
+    (containercenter :monitor 2)
+    (containerright)
+  )
+)

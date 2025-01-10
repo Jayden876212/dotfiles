@@ -1,0 +1,3 @@
+#! /bin/dash
+
+df --output=source,used | grep -oP -m 1 '(?<=/dev/nvme0n1p3).*' | sed 's: ::g'

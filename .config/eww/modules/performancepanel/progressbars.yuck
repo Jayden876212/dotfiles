@@ -1,0 +1,31 @@
+(defvar progressbarsmallwidth 200)
+(defvar progressbarwidth 480)
+
+(defwidget progressbar [text value colour size width] 
+  (box :orientation "v"
+    (box :orientation "h"
+      (children)
+      (label :text text :class "text"))
+    (progress :value value
+                :class "${colour}progressbar${size}"
+                :orientation "h"
+                :width width
+                :valign "center"
+                :halign "center")))
+
+(defvar circularmetricsmallwidth 80)
+(defvar circularmetricwidth 120)
+
+(defwidget circularmetric [text value width ?fontclass colour] 
+  (box :halign "center" :width width :height width :orientation "v" :class "margin" :space-evenly "false" :spacing 0
+    (box :halign "center" :width width :height width :orientation "v" :class "containerborder2" 
+        (circular-progress :value value
+                    :thickness 10
+                    :start-at 75
+                    :class "${colour}circularbar"
+          (box :class "containerborder2" 
+            (label :text text
+                   :class fontclass
+                   :limit-width 10
+                   :wrap false))))
+    (children)))

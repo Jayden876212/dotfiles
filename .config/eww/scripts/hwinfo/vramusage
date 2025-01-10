@@ -1,0 +1,3 @@
+#! /bin/dash
+
+rocm-smi --csv --showmemuse | sed 's: ::g' | grep -oP '(?<=card0,).*(?=,N)'

@@ -1,0 +1,4 @@
+#! /bin/dash
+
+sleep 2
+pkill -SIGUSR1 waybar

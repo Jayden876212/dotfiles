@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "coc-html": ">=1.8.0"
+  }
+}

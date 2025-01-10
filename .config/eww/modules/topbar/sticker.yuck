@@ -1,0 +1,19 @@
+(defwidget sticker []
+  (box :orientation "horizontal"
+       :valign "center"
+       :class "sticker"
+       :height 30
+    (children)
+  )
+)
+
+(defwidget stickerawin [class monitor]
+  (revealer :reveal "${(awin.monitor==monitor) ? "true" : "false"}"
+            :transition "slideleft"
+    (box :orientation "horizontal"
+         :valign "center"
+         :height 30
+         :class class
+      (children))
+  ) 
+)

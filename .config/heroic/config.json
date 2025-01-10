@@ -1,0 +1,41 @@
+{
+  "defaultSettings": {
+    "checkUpdatesInterval": 10,
+    "enableUpdates": false,
+    "addDesktopShortcuts": false,
+    "addStartMenuShortcuts": false,
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "addSteamShortcuts": false,
+    "preferSystemLibs": false,
+    "checkForUpdatesOnStartup": true,
+    "autoUpdateGames": false,
+    "customWinePaths": [],
+    "defaultInstallPath": "/home/tdljayden/Games/Heroic",
+    "libraryTopSection": "disabled",
+    "defaultSteamPath": "/home/tdljayden/.steam/steam",
+    "defaultWinePrefix": "/home/tdljayden/Games/Heroic/Prefixes/default",
+    "hideChangelogsOnStartup": false,
+    "language": "en",
+    "maxWorkers": 0,
+    "minimizeOnLaunch": false,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "userInfo": {
+      "name": "tdljayden"
+    },
+    "wineCrossoverBottle": "Heroic",
+    "winePrefix": "/home/tdljayden/Games/Heroic/Prefixes/default",
+    "wineVersion": {
+      "bin": "",
+      "name": "Default Wine - Not Found",
+      "type": "wine"
+    },
+    "enableEsync": true,
+    "enableFsync": true
+  },
+  "version": "v0"
+}

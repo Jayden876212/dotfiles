@@ -1,0 +1,17 @@
+(defwidget fetch []
+  (box :class "containerborder-margin-top" :orientation "h" :space-evenly false :halign "center" :valign "center" :height 175 :width 530
+    (box :class "container" :orientation "v" :halign "end" :width 150
+      (image :path "images/gentoo-signet.png" :image-width 125))
+    (box :class "container" :orientation "v" :halign "start" :valign "center" :width 250 :spacing 2 :space-evenly false
+      (textinfo :connector "╭─󰦉" :name "Operating System:" :value "${osname}")
+      (textinfo :connector "├─" :name "Distribution:" :value "${distname} ${distver}")
+      (textinfo :connector "├─" :name "Host:" :value "${username}@${hostname}")
+      (textinfo :connector "├─" :name "Kernel:" :value "${kernelver}")
+      (textinfo :connector "├─" :name "Compositor:" :value "${compositorname}")
+      (textinfo :connector "╰─" :name "Packages:" :value "${pkgcount} (portage)"))))
+
+(defwidget textinfo [?connector name value]
+  (box :class "container" :orientation "h" :halign "start" :width 250 :spacing 10 :space-evenly false
+    (label :text connector :halign "start" :class "textnerd")
+    (label :text name :halign "start" :class "textbold")
+    (label :text value :halign "start" :class "textitalic")))

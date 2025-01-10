@@ -1,0 +1,31 @@
+(defwidget activewindow [monitor]
+  (stickerawin :class "${(awin.monitor==monitor) ? "frost3outlinecontainerborder" : "sticker"}"
+               :monitor monitor
+    (box
+      :valign "center"
+      :space-evenly false
+      :orientation "v"
+      (box
+        (eventbox
+          :onscroll "echo {} | sed -e \"s/up/-1/g\" -e \"s/down/+1/g\" | xargs hyprctl dispatch workspace"
+          :onhover "${EWW_CMD} update rev_center_ws=true"
+          (box
+            :space-evenly false
+            :class "activewin"
+            (revealer
+              :transition "slideright"
+              :reveal "${(awin.monitor==monitor) ? "true" : "false"}"
+              :duration "300ms"
+              (label
+                :limit-width 40
+                ;:text "${(awin.title == "null") ? "" : awin.title}"
+                :text "${awin.title}"
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+)
+;"${(awin.title != "null")}"

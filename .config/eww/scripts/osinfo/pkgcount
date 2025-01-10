@@ -1,0 +1,4 @@
+#! /bin/dash
+
+equery list '*' | wc -l
+

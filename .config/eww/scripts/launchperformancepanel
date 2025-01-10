@@ -1,0 +1,25 @@
+#! /bin/dash
+
+activemonitor=$(hyprctl activewindow -j | gojq -c -M '.monitor')
+isperformancepanelopen=$(cat /tmp/eww/isperformancepanelopen)
+
+openperformancepanel () {
+	if [ ${activemonitor} -eq $1 ]; then
+		eww open performancepanel$1
+		sed -i 's/0/1/' /tmp/eww/isperformancepanelopen
+		isperformancepanelopen=$(cat /tmp/eww/isperformancepanelopen)
+	fi
+}
+
+if [ $isperformancepanelopen -eq 0 ]; then
+	openperformancepanel 0
+	openperformancepanel 1
+	openperformancepanel 2
+	if [ $isperformancepanelopen -eq 0 ]; then
+		eww open performancepanel0
+		sed -i 's/0/1/' /tmp/eww/isperformancepanelopen
+	fi
+elif [ $isperformancepanelopen -eq 1 ]; then
+	eww close performancepanel0 performancepanel1 performancepanel2
+	sed -i 's/1/0/' /tmp/eww/isperformancepanelopen
+fi
