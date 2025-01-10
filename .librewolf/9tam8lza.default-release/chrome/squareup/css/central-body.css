@@ -1,0 +1,158 @@
+#central-body {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 10;
+	opacity: 1;
+	transform: translate(-50%,-50%);
+	transition:
+				opacity var(--transition-speed),
+				z-index var(--transition-speed);
+	display: flex;
+	flex-direction: column;
+}
+
+#central-body.central-body-hide {
+	z-index: 0;
+	opacity: 0;
+}
+
+#clock {
+	font-weight: bold;
+	font-size: 88pt;
+	color: var(--clock-color);
+	white-space: nowrap;
+	text-align: center;
+	margin-bottom: 40px;
+	text-shadow: 2px 2px #0A0A0A22;
+	user-select: none;
+	transition: font-size var(--transition-speed);
+
+	/* color: hsla(261, 100%, 79%, 0.1); */
+	/* background-color: hsla(261, 100%, 79%, 0.1) !important; */
+	/* border: none !important; */
+	/* fill: none !important; */
+	/* box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+		0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+		0 6px 6px hsl(0deg 0% 0% / 0.075), 0 12px 12px hsl(0deg 0% 0% / 0.095) !important; */
+	/* backdrop-filter: blur(14px) !important; */
+}
+
+#search-container {
+	width: 100%;
+}
+
+#search-box {
+	/* background: var(--base-bg); */
+	/* color: var(--font-color); */
+	/* box-shadow:
+			0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+			0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+			0 12.5px 10px rgba(0, 0, 0, 0.06),
+			0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+			0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+			0 100px 80px rgba(0, 0, 0, 0.12); */
+	/* border: none; */
+
+	font-size: 14pt;
+	text-align: center;
+	position: relative; 
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 10px;
+	border-radius: 24px;
+	max-width: 100%;
+	transition:
+		max-width var(--transition-speed),
+		font-size var(--transition-speed),
+		width var(--transition-speed);
+
+	background: linear-gradient(30deg, hsla(261, 100%, 79%, 0.1) 0%, hsla(261, 100%, 79%, 0.3) 100%);
+	background-color: none;
+	border: none;
+	border-top: 1px solid #ffffff26;
+	border-right: 1px solid #ffffff26;
+	box-shadow: -1px 1px 1px hsl(0deg 0% 0% / 0.075),
+		-1px 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+		-1px 6px 6px hsl(0deg 0% 0% / 0.075), 0 12px 12px hsl(0deg 0% 0% / 0.095);
+	backdrop-filter: blur(14px);
+}
+
+@media screen and (min-width: 1100px) {
+	#search-box, #suggestions-container {
+		max-width: 100%;
+		width: 30em;
+		font-size: 25pt;
+	}
+}
+
+@media screen and (max-width: 1099px) {
+	#search-box, #suggestions-container {
+		max-width: 100%;
+		width: 24em;
+		font-size: 25pt;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#search-box, #suggestions-container {
+		max-width: 100%;
+		width: 24em;
+		font-size: 17pt;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#search-box, #suggestions-container {
+		max-width: 100%;
+		width: 19em;
+		font-size: 16pt;
+	}
+
+	#clock {
+		font-size: 70pt;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	#search-box, #suggestions-container {
+		max-width: 70%;
+		font-size: 15pt;
+	}
+
+	#clock {
+		font-size: 70pt;
+	}
+}
+
+@media screen and (max-width: 515px) {
+	#search-box, #suggestions-container {
+		max-width: 60%;
+		font-size: 14pt;
+	}
+
+	#clock {
+		font-size: 60pt;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#search-box, #suggestions-container {
+		max-width: 55%;
+		font-size: 12pt;
+	}
+
+	#clock {
+		font-size: 50pt;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#search-box, #suggestions-container {
+		font-size: 11pt;
+	}
+
+	#clock {
+		font-size: 30pt;
+	}
+}

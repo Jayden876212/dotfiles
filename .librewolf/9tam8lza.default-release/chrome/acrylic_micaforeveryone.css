@@ -1,0 +1,97 @@
+#main-window{
+  background-color: transparent !important;
+}
+
+#navigator-toolbox:-moz-window-inactive {
+  background-color: var(--firefoxcss-item-bg-color)  !important;
+}
+
+#navigator-toolbox #TabsToolbar {
+  background-image: none !important;   
+  background-color: transparent !important;
+}
+
+#navigator-toolbox #TabsToolbar .titlebar-buttonbox .titlebar-button {
+   color:hsl(240, 2%, 62%) !important
+}
+
+#main-window #navigator-toolbox {
+  background-color: color-mix(in srgb, field 45%, transparent) !important;
+}
+
+#navigator-toolbox toolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > .toolbarbutton-icon,
+#navigator-toolbox toolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > .toolbarbutton-text,
+#navigator-toolbox toolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > .toolbarbutton-badge-stack {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+#navigator-toolbox toolbar .toolbarbutton-1:not([disabled="true"]):is([open], [checked], :hover:active) > .toolbarbutton-icon,
+#navigator-toolbox toolbar .toolbarbutton-1:not([disabled="true"]):is([open], [checked], :hover:active) > .toolbarbutton-text,
+#navigator-toolbox toolbar .toolbarbutton-1:not([disabled="true"]):is([open], [checked], :hover:active) > .toolbarbutton-badge-stack {
+  background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+
+#navigator-toolbox #urlbar:not([breakout][breakout-extend][open]) {
+  /* background-color:  hsla(0, 0%, 0%, 0.4) !important; */
+  border: none;
+}
+
+#navigator-toolbox #urlbar[breakout][breakout-extend][open] {
+  /* background-color: var(--firefoxcss-url-breakout-bar-bg-color) !important; */
+  border: none;
+}
+
+#navigator-toolbox .tabbrowser-tab .tab-background:not([selected]) {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+#navigator-toolbox #tabbrowser-tabs
+  .tabbrowser-tab:hover
+  > .tab-stack
+  > .tab-background:not([selected="true"]) {
+    background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
+}
+
+#navigator-toolbox #tabbrowser-tabs .tabbrowser-tab .tab-background[multiselected="true"] {
+  background-color:  hsla(0, 0%, 0%, 0.4) !important;
+}
+
+#navigator-toolbox toolbar
+  #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active):hover
+  > .toolbarbutton-icon,
+#navigator-toolbox toolbar
+  #new-tab-button:not([disabled="true"]):not([checked]):not([open]):not(:active):hover
+  > .toolbarbutton-icon {
+  background-color: hsla(0, 0%, 0%, 0.3) !important;
+  box-shadow: none !important;
+}
+
+#navigator-toolbox toolbar
+  #tabs-newtab-button:not([disabled="true"]):-moz-any([open], [checked], :hover:active)
+  > .toolbarbutton-icon,
+#navigator-toolbox toolbar
+  #new-tab-button:not([disabled="true"]):-moz-any([open], [checked], :hover:active)
+  > .toolbarbutton-icon {
+  background-color: hsla(240, 2%, 15%, 0.5) !important;
+  box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.6) !important;
+}
+
+
+:root
+{
+  --toolbar-bgcolor: color-mix(in srgb, -moz-Dialog 50%, transparent) !important;
+  --toolbar-field-background-color: color-mix(in srgb, Field 25%, transparent) !important;
+}
+
+:root[tabsintitlebar] #navigator-toolbox-background
+{
+  appearance: none !important;
+}
+
+#main-window[tabsintitlebar]
+{
+  background-color: transparent !important;
+}

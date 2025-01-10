@@ -1,0 +1,78 @@
+#suggestions-container-center {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+#suggestions-container {
+	background-color: none;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	margin-top: 9px;
+	border-radius: 13px;
+	display: none;
+	user-select: none;
+
+	background-color: hsla(261, 100%, 79%, 0.1);
+	border: none;
+	border-top: 1px solid #ffffff26;
+	border-right: 1px solid #ffffff26;
+	box-shadow: -1px 1px 1px hsl(0deg 0% 0% / 0.075),
+		-1px 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+		-1px 6px 6px hsl(0deg 0% 0% / 0.075), 0 12px 12px hsl(0deg 0% 0% / 0.095);
+	backdrop-filter: blur(14px);
+}
+
+#suggestions-container.suggestion-show {
+	display: block;
+	width: 70%;
+}
+
+ul#suggestions {
+	list-style: none !important;
+	padding: 0;
+	margin: 7px 8px;
+}
+
+li.suggestion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+}
+
+li button.suggestion-button {
+	background: transparent;
+	font-size: 16pt;
+	border: none;
+	border-top: 0.5px solid #ffffff00;
+	border-right: 0.5px solid #ffffff00;
+	border-left: 0.5px solid #ffffff00;
+	width: auto;
+	margin: 2px 0;
+	padding: 5px 0 8px 0;
+	width: 100%;
+	outline: none;
+	overflow-y: auto;
+}
+
+li button.suggestion-button:hover,
+li button.suggestion-button:active ,
+li button.suggestion-button:focus {
+	border-radius: 13px;
+	background-color: hsla(261, 100%, 79%, 0.03) !important;
+	border: none;
+	border-top: 1px solid #ffffff26;
+	border-right: 1px solid #ffffff26;
+	border-left: 1px solid #ffffff00;
+	box-shadow: -0.5px 0.5px 0.5px hsl(0deg 0% 0% / 0.075),
+		-0.5px 2px 2px hsl(0deg 0% 0% / 0.075), -2px 6px 6px hsl(0deg 0% 0% / 0.095);
+	backdrop-filter: blur(14px);
+	outline: none;
+}
