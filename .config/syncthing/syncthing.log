@@ -1,0 +1,37 @@
+[start] 2024/03/17 17:40:00 INFO: syncthing v1.27.2 "Gold Grasshopper" (go1.22.1 linux-amd64) portage@localhost 2024-03-17 17:39:20 UTC [noupgrade]
+[TIN2V] 2024/03/17 17:40:00 INFO: My ID: TIN2VLL-BMHYC6P-SBNEF6N-SXKI6OF-SUEXYTD-WMRJQTX-4RMPZHQ-KX3WTAB
+[TIN2V] 2024/03/17 17:40:00 INFO: Single thread SHA256 performance is 2180 MB/s using crypto/sha256 (2170 MB/s using minio/sha256-simd).
+[TIN2V] 2024/03/17 17:40:01 INFO: Hashing performance is 1418.25 MB/s
+[TIN2V] 2024/03/17 17:40:01 INFO: Overall send rate is unlimited, receive rate is unlimited
+[TIN2V] 2024/03/17 17:40:01 INFO: Ready to synchronize "Notes" (notes) (sendreceive)
+[TIN2V] 2024/03/17 17:40:01 INFO: Using discovery mechanism: global discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[TIN2V] 2024/03/17 17:40:01 INFO: Using discovery mechanism: global discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[TIN2V] 2024/03/17 17:40:01 INFO: Using discovery mechanism: global discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX-VI3NYZR-ALCJBHF-WMZYSPK-QG6QJA3-MPFYMSO-U56GTUK-NA2MIAW
+[TIN2V] 2024/03/17 17:40:01 INFO: Using discovery mechanism: IPv4 local broadcast discovery on port 21027
+[TIN2V] 2024/03/17 17:40:01 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[TIN2V] 2024/03/17 17:40:01 INFO: Using discovery mechanism: IPv6 local multicast discovery on address [ff12::8384]:21027
+[TIN2V] 2024/03/17 17:40:01 INFO: Ready to synchronize "Security" (wakvm-qcagv) (sendreceive)
+2024/03/17 17:40:01 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 2048 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+[TIN2V] 2024/03/17 17:40:01 INFO: GUI and API listening on 127.0.0.1:35905
+[TIN2V] 2024/03/17 17:40:01 INFO: Access the GUI via the following URL: http://127.0.0.1:35905/
+[TIN2V] 2024/03/17 17:40:01 INFO: My name is "JAYDEN-PC-GENTOO"
+[TIN2V] 2024/03/17 17:40:01 INFO: Device BTG6PVX-MWR3ICG-46CY32H-66XL3PC-72N7S3D-UORPIZC-JIXHEEW-OQMRYA2 is "Jayden's Phone" at [dynamic]
+[TIN2V] 2024/03/17 17:40:01 INFO: TCP listener ([::]:46879) starting
+[TIN2V] 2024/03/17 17:40:01 INFO: Completed initial scan of sendreceive folder "Security" (wakvm-qcagv)
+[TIN2V] 2024/03/17 17:40:01 INFO: QUIC listener ([::]:46879) starting
+[TIN2V] 2024/03/17 17:40:01 INFO: Completed initial scan of sendreceive folder "Notes" (notes)
+[TIN2V] 2024/03/17 17:40:07 INFO: Established secure connection to BTG6PVX at 192.168.1.112:45650-91.121.242.53:22067/relay-client/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P50-5TTJO5V61J6NKTBSCQJ4F3TQ70
+[TIN2V] 2024/03/17 17:40:07 INFO: Device BTG6PVX client is "syncthing v1.27.3" named "Pixel 6a" at 192.168.1.112:45650-91.121.242.53:22067/relay-client/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P50-5TTJO5V61J6NKTBSCQJ4F3TQ70
+[TIN2V] 2024/03/17 17:40:12 INFO: Established secure connection to BTG6PVX at 192.168.1.112:46879-192.168.1.108:22000/tcp-client/TLS1.3-TLS_AES_128_GCM_SHA256/LAN-P10-5TTJO6HRNFFTE24KPH357K4UVK
+[TIN2V] 2024/03/17 17:40:12 INFO: Additional connection (+1) for device BTG6PVX at 192.168.1.112:46879-192.168.1.108:22000/tcp-client/TLS1.3-TLS_AES_128_GCM_SHA256/LAN-P10-5TTJO6HRNFFTE24KPH357K4UVK
+[TIN2V] 2024/03/17 17:40:12 INFO: Lost primary connection to BTG6PVX at 192.168.1.112:45650-91.121.242.53:22067/relay-client/TLS1.3-TLS_AES_128_GCM_SHA256/WAN-P50-5TTJO5V61J6NKTBSCQJ4F3TQ70: replacing connection (1 remain)
+[start] 2024/03/17 17:40:20 INFO: syncthing v1.27.2 "Gold Grasshopper" (go1.22.1 linux-amd64) portage@localhost 2024-03-17 17:39:20 UTC [noupgrade]
+[TIN2V] 2024/03/17 17:40:20 INFO: My ID: TIN2VLL-BMHYC6P-SBNEF6N-SXKI6OF-SUEXYTD-WMRJQTX-4RMPZHQ-KX3WTAB
+[start] 2025/01/07 16:00:15 INFO: syncthing v1.27.10 "Gold Grasshopper" (go1.23.4 linux-amd64) portage@localhost 2024-12-29 23:34:50 UTC [noupgrade]
+[start] 2025/01/07 16:00:15 WARNING: Error opening database: resource temporarily unavailable (is another instance of Syncthing running?)
+[start] 2025/01/07 16:00:16 INFO: syncthing v1.27.10 "Gold Grasshopper" (go1.23.4 linux-amd64) portage@localhost 2024-12-29 23:34:50 UTC [noupgrade]
+[start] 2025/01/07 16:00:16 WARNING: Error opening database: resource temporarily unavailable (is another instance of Syncthing running?)
+[start] 2025/01/07 16:00:17 INFO: syncthing v1.27.10 "Gold Grasshopper" (go1.23.4 linux-amd64) portage@localhost 2024-12-29 23:34:50 UTC [noupgrade]
+[start] 2025/01/07 16:00:17 WARNING: Error opening database: resource temporarily unavailable (is another instance of Syncthing running?)
+[start] 2025/01/07 16:00:18 INFO: syncthing v1.27.10 "Gold Grasshopper" (go1.23.4 linux-amd64) portage@localhost 2024-12-29 23:34:50 UTC [noupgrade]
+[start] 2025/01/07 16:00:18 WARNING: Error opening database: resource temporarily unavailable (is another instance of Syncthing running?)
