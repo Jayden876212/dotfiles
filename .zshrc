@@ -212,5 +212,6 @@ cd
 
 alias dnvim="doas nvim"
 alias sysup="e -uDN @world"
+alias sudo="doas"
 
 export MANPAGER="nvim +Man!"
