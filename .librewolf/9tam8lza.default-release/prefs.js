@@ -216,7 +216,7 @@ user_pref("storage.vacuum.last.content-prefs.sqlite", 1735827078);
 user_pref("storage.vacuum.last.index", 2);
 user_pref("storage.vacuum.last.places.sqlite", 1735740678);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
-user_pref("toolkit.startup.last_success", 1736801245);
+user_pref("toolkit.startup.last_success", 1736801377);
 user_pref("toolkit.telemetry.cachedClientID", "d483779e-6a37-4c46-9d8a-576a9f351f89");
 user_pref("toolkit.telemetry.cachedProfileGroupID", "d483779e-6a37-4c46-9d8a-576a9f351f89");
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
