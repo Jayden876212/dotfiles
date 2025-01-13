@@ -2,4 +2,5 @@
 kdeconnect_batteryEnabled=true
 kdeconnect_pingEnabled=true
 kdeconnect_presenterEnabled=true
+kdeconnect_screensaver_inhibitEnabled=true
 kdeconnect_sendnotificationsEnabled=true
