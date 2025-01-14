@@ -3,6 +3,6 @@
 #chmod -R 777 $XDG_RUNTIME_DIR
 #chown -R :users $XDG_RUNTIME_DIR
 
-run-parts $HOME/scripts/startup &
+run-parts $HOME/.scripts/startup &
 
 /usr/bin/dbus-run-session Hyprland

@@ -121,7 +121,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 
-alias startwm="dash ${HOME}/scripts/startwm.sh"
+alias startwm="dash ${HOME}/.scripts/startwm.sh"
 alias uf2conv="python ${HOME}/micropython/tools/uf2conv.py"
 
 alias .="cd ."
@@ -186,7 +186,7 @@ alias obsidian="/opt/Obsidian/obsidian --ozone-platform-hint=auto --enable-featu
 
 alias stopwatch="python /home/tdljayden/tools/stopwatch.py"
 
-alias searxng="zsh $HOME/scripts/searxng-zsh.sh"
+alias searxng="zsh $HOME/.scripts/searxng-zsh.sh"
 
 alias radicale="/home/tdljayden/radicale_storage_decsync/.venv/bin/python3 -m radicale --config "~/.config/radicale/config.conf""
 
@@ -199,8 +199,8 @@ alias USE="doas equery u"
 
 ## keydrive (for Secure Boot)
 
-alias "keydrive-open"="/usr/bin/doas /bin/sh /home/tdljayden/scripts/keydrive-open.sh"
-alias "keydrive-close"="/usr/bin/doas /bin/sh /home/tdljayden/scripts/keydrive-close.sh"
+alias "keydrive-open"="/usr/bin/doas /bin/sh /home/tdljayden/.scripts/keydrive-open.sh"
+alias "keydrive-close"="/usr/bin/doas /bin/sh /home/tdljayden/.scripts/keydrive-close.sh"
 
 #alias "make"="bear -- make"
 
