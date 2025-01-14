@@ -10,3 +10,6 @@
 [submodule "Lightly"]
 	path = Lightly
 	url = https://github.com/Jayden876212/Lightly
+[submodule "papirus-folders"]
+	path = .theming/papirus-folders
+	url = https://github.com/catppuccin/papirus-folders
