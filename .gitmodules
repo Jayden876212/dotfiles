@@ -5,10 +5,10 @@
 	path = .config/eww/scripts/hyprland_workspace_indicator
 	url = https://github.com/Jayden876212/hyprland_workspace_indicator
 [submodule "WhiteSur-gtk-theme"]
-	path = WhiteSur-gtk-theme
+	path = .theming/WhiteSur-gtk-theme
 	url = https://github.com/Jayden876212/WhiteSur-gtk-theme
 [submodule "Lightly"]
-	path = Lightly
+	path = .theming/Lightly
 	url = https://github.com/Jayden876212/Lightly
 [submodule "papirus-folders"]
 	path = .theming/papirus-folders
