@@ -7,3 +7,6 @@
 [submodule "WhiteSur-gtk-theme"]
 	path = WhiteSur-gtk-theme
 	url = https://github.com/Jayden876212/WhiteSur-gtk-theme
+[submodule "Lightly"]
+	path = Lightly
+	url = https://github.com/Jayden876212/Lightly
