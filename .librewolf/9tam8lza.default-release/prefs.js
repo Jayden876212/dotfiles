@@ -11,7 +11,7 @@
 
 user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1736938281);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1736951791);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1736955391);
 user_pref("app.update.lastUpdateTime.services-settings-poll-changes", 1736938281);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1736938281);
 user_pref("browser.bookmarks.editDialog.confirmationHintShowCount", 3);
@@ -111,7 +111,7 @@ user_pref("distribution.iniFile.exists.appversion", "134.0-1");
 user_pref("distribution.iniFile.exists.value", false);
 user_pref("dom.forms.autocomplete.formautofill", true);
 user_pref("dom.private-attribution.submission.enabled", false);
-user_pref("dom.push.userAgentID", "b66835cf9566430b81ea9b8ba1e1b14c");
+user_pref("dom.push.userAgentID", "add0505e15cb4ce3934c73eee0634a60");
 user_pref("dom.security.https_only_mode_ever_enabled", true);
 user_pref("extensions.activeThemeID", "firefox-compact-dark@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", -1);
