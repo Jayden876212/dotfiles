@@ -11,7 +11,7 @@
 
 user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1736938281);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1736981705);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1736985308);
 user_pref("app.update.lastUpdateTime.services-settings-poll-changes", 1736938281);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1736938281);
 user_pref("browser.bookmarks.editDialog.confirmationHintShowCount", 3);
@@ -111,7 +111,7 @@ user_pref("distribution.iniFile.exists.appversion", "134.0-1");
 user_pref("distribution.iniFile.exists.value", false);
 user_pref("dom.forms.autocomplete.formautofill", true);
 user_pref("dom.private-attribution.submission.enabled", false);
-user_pref("dom.push.userAgentID", "24a8c5de620044079eecd8471749a17e");
+user_pref("dom.push.userAgentID", "5cb0fef31f654d2487aa64c87491038b");
 user_pref("dom.security.https_only_mode_ever_enabled", true);
 user_pref("extensions.activeThemeID", "firefox-compact-dark@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", -1);
@@ -160,8 +160,8 @@ user_pref("intl.accept_languages", "en-US, en");
 user_pref("javascript.use_us_english_locale", true);
 user_pref("media.eme.enabled", true);
 user_pref("media.gmp-manager.buildID", "20250113092819");
-user_pref("media.gmp-manager.lastCheck", 1736892917);
-user_pref("media.gmp-manager.lastEmptyCheck", 1736892917);
+user_pref("media.gmp-manager.lastCheck", 1736982123);
+user_pref("media.gmp-manager.lastEmptyCheck", 1736982123);
 user_pref("media.gmp-widevinecdm.abi", "x86_64-gcc3");
 user_pref("media.gmp-widevinecdm.hashValue", "9f1fe2c912897bc644f936170eaa6a2cb13772e9456e377ebcb489ae58b85ce8095d7584c8e51658857e90e06b33f7e8005af58f6e91fe93bae752f3fe561ec6");
 user_pref("media.gmp-widevinecdm.lastDownload", 1730642768);
