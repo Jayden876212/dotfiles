@@ -130,7 +130,8 @@ alias ...="cd ..."
 alias ....="cd ...."
 alias .....="cd ....."
 
-alias cmatrix="cmatrix -C blue"
+#alias cmatrix="cmatrix -C blue"
+alias cmatrix="neo --defaultbg --fps=144 --color=blue"
 
 alias pipes="pipes-rs"
 alias fetch="fastfetch --logo-color-1 blue --logo-color-2 black --color blue --colors-symbol circle"
