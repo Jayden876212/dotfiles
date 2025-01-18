@@ -13,3 +13,6 @@
 [submodule "papirus-folders"]
 	path = .theming/papirus-folders
 	url = https://github.com/catppuccin/papirus-folders
+[submodule ".theming/nautilus-open-any-terminal"]
+	path = .theming/nautilus-open-any-terminal
+	url = https://github.com/Stunkymonkey/nautilus-open-any-terminal.git
