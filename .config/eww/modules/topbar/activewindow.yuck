@@ -1,5 +1,5 @@
 (defwidget activewindow [monitor]
-  (stickerawin :class "${(awin.monitor==monitor) ? "frost3outlinecontainerborder" : "sticker"}"
+  (stickerawin :class "${(awin.monitor==monitors[monitor].id) ? "frost3outlinecontainerborder" : "sticker"}"
                :monitor monitor
     (box
       :valign "center"
@@ -14,7 +14,7 @@
             :class "activewin"
             (revealer
               :transition "slideright"
-              :reveal "${(awin.monitor==monitor) ? "true" : "false"}"
+              :reveal "${(awin.monitor==monitors[monitor].id) ? "true" : "false"}"
               :duration "300ms"
               (label
                 :limit-width 40

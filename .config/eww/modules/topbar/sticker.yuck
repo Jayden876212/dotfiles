@@ -8,7 +8,7 @@
 )
 
 (defwidget stickerawin [class monitor]
-  (revealer :reveal "${(awin.monitor==monitor) ? "true" : "false"}"
+  (revealer :reveal "${(awin.monitor==monitors[monitor].id) ? "true" : "false"}"
             :transition "slideleft"
     (box :orientation "horizontal"
          :valign "center"
