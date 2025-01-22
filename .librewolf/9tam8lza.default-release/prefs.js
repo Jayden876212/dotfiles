@@ -111,7 +111,7 @@ user_pref("distribution.iniFile.exists.appversion", "134.0.1-1");
 user_pref("distribution.iniFile.exists.value", false);
 user_pref("dom.forms.autocomplete.formautofill", true);
 user_pref("dom.private-attribution.submission.enabled", false);
-user_pref("dom.push.userAgentID", "1e7c8de93b8745c9ba74b94fd97d2537");
+user_pref("dom.push.userAgentID", "799a219148b644f695666deb1fa67964");
 user_pref("dom.security.https_only_mode_ever_enabled", true);
 user_pref("extensions.activeThemeID", "firefox-compact-dark@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", -1);
