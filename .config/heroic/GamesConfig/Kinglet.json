@@ -18,16 +18,28 @@
     "language": "",
     "beforeLaunchScriptPath": "",
     "afterLaunchScriptPath": "",
+    "gamescope": {
+      "enableUpscaling": true,
+      "enableLimiter": false,
+      "windowType": "fullscreen",
+      "gameWidth": "1920",
+      "gameHeight": "1080",
+      "upscaleHeight": "1080",
+      "upscaleWidth": "1920",
+      "upscaleMethod": "stretch",
+      "fpsLimiter": "",
+      "fpsLimiterNoFocus": "",
+      "additionalOptions": "--immediate-flips -o 24 --framerate-limit 0  -r 144 --force-grab-cursor -g --rt -O DP-2 --display-index DP-2 --mangoapp"
+    },
     "wineVersion": {
-      "bin": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-latest/bin/wine",
-      "name": "Wine - Wine-GE-latest",
+      "bin": "/etc/eselect/wine/bin/wine",
+      "name": "Wine Default - wine-9.0 (Proton-9.0-2)",
       "type": "wine",
-      "lib": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-latest/lib64",
-      "lib32": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-latest/lib",
-      "wineserver": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-latest/bin/wineserver"
+      "wineserver": "/etc/eselect/wine/bin/wineserver"
     },
     "winePrefix": "/home/tdljayden/Games/Heroic/Prefixes/default/Sid Meiers Civilization VI",
-    "wineCrossoverBottle": ""
+    "wineCrossoverBottle": "",
+    "enableDXVKFpsLimit": false
   },
   "version": "v0",
   "explicit": true

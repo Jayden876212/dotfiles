@@ -1,23 +1,27 @@
 {
   "Sugar": {
     "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
     "autoInstallVkd3d": false,
     "preferSystemLibs": false,
     "enableEsync": false,
+    "enableMsync": false,
     "enableFsync": true,
     "nvidiaPrime": false,
     "enviromentOptions": [],
     "wrapperOptions": [],
     "showFps": false,
     "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
     "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
     "wineVersion": {
-      "bin": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/bin/wine",
-      "name": "Wine - Wine-GE-Proton8-13",
+      "bin": "/etc/eselect/wine/bin/wine",
+      "name": "Wine Default - wine-9.0 (Proton-9.0-2)",
       "type": "wine",
-      "lib": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib64",
-      "lib32": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/lib",
-      "wineserver": "/home/tdljayden/.config/heroic/tools/wine/Wine-GE-Proton8-13/bin/wineserver"
+      "wineserver": "/etc/eselect/wine/bin/wineserver"
     },
     "winePrefix": "/home/tdljayden/Games/Heroic/Prefixes/default/Rocket League",
     "wineCrossoverBottle": ""

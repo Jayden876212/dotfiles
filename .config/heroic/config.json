@@ -3,9 +3,10 @@
     "checkUpdatesInterval": 10,
     "enableUpdates": false,
     "addDesktopShortcuts": false,
-    "addStartMenuShortcuts": false,
+    "addStartMenuShortcuts": true,
     "autoInstallDxvk": true,
     "autoInstallVkd3d": true,
+    "autoInstallDxvkNvapi": false,
     "addSteamShortcuts": false,
     "preferSystemLibs": false,
     "checkForUpdatesOnStartup": true,
@@ -18,15 +19,12 @@
     "hideChangelogsOnStartup": false,
     "language": "en",
     "maxWorkers": 0,
-    "minimizeOnLaunch": false,
+    "minimizeOnLaunch": true,
     "nvidiaPrime": false,
     "enviromentOptions": [],
     "wrapperOptions": [],
     "showFps": false,
     "useGameMode": false,
-    "userInfo": {
-      "name": "tdljayden"
-    },
     "wineCrossoverBottle": "Heroic",
     "winePrefix": "/home/tdljayden/Games/Heroic/Prefixes/default",
     "wineVersion": {
@@ -35,7 +33,30 @@
       "type": "wine"
     },
     "enableEsync": true,
-    "enableFsync": true
+    "enableFsync": true,
+    "enableMsync": false,
+    "eacRuntime": true,
+    "battlEyeRuntime": true,
+    "framelessWindow": false,
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "userInfo": {
+      "name": "tdljayden"
+    },
+    "exitToTray": true,
+    "gamescope": {
+      "enableUpscaling": false,
+      "enableLimiter": false,
+      "windowType": "fullscreen",
+      "gameWidth": "",
+      "gameHeight": "",
+      "upscaleHeight": "",
+      "upscaleWidth": "",
+      "upscaleMethod": "stretch",
+      "fpsLimiter": "",
+      "fpsLimiterNoFocus": "",
+      "additionalOptions": "-f -w 1920 -h 1080 -W 1920 -H 1080 --immediate-flips -o 24 --framerate-limit 0  -r 144 --force-grab-cursor -g --rt -O DP-2 --display-index DP-2 --mangoapp --"
+    }
   },
   "version": "v0"
 }
