@@ -167,7 +167,7 @@ sw() {
 alias reboot="doas /sbin/reboot"
 alias poweroff="doas /sbin/poweroff"
 
-alias e="doas emerge --ask"
+alias e="doas emerge --ask --oneshot"
 
 alias open="xdg-open"
 
