@@ -215,5 +215,7 @@ alias sudo="doas"
 
 export MANPAGER="nvim +Man!"
 
+export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/go/bin
+
 # Runtime fetch splash
 fetch
