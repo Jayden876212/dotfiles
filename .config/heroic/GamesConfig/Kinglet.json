@@ -1,8 +1,8 @@
 {
   "Kinglet": {
-    "autoInstallDxvk": true,
+    "autoInstallDxvk": false,
     "autoInstallDxvkNvapi": false,
-    "autoInstallVkd3d": true,
+    "autoInstallVkd3d": false,
     "preferSystemLibs": true,
     "enableEsync": true,
     "enableMsync": false,
@@ -39,7 +39,8 @@
     },
     "winePrefix": "/home/tdljayden/Games/Heroic/Prefixes/default/Sid Meiers Civilization VI",
     "wineCrossoverBottle": "",
-    "enableDXVKFpsLimit": false
+    "enableDXVKFpsLimit": false,
+    "ignoreGameUpdates": true
   },
   "version": "v0",
   "explicit": true
