@@ -207,7 +207,7 @@ user_pref("privacy.query_stripping.enabled.pbmode", true);
 user_pref("privacy.resistFingerprinting", false);
 user_pref("privacy.sanitize.clearOnShutdown.hasMigratedToNewPrefs3", true);
 user_pref("privacy.sanitize.cpd.hasMigratedToNewPrefs2", true);
-user_pref("privacy.sanitize.pending", "[{\"id\":\"shutdown\",\"itemsToClear\":[\"cache\",\"cookiesAndStorage\"],\"options\":{}},{\"id\":\"newtab-container\",\"itemsToClear\":[],\"options\":{}}]");
+user_pref("privacy.sanitize.pending", "[]");
 user_pref("privacy.trackingprotection.emailtracking.enabled", true);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
@@ -223,7 +223,7 @@ user_pref("services.settings.security-state.cert-revocations.last_check", 174179
 user_pref("services.settings.security-state.intermediates.last_check", 1741797693);
 user_pref("services.settings.security-state.onecrl.last_check", 1741797693);
 user_pref("services.sync.engine.addresses.available", true);
-user_pref("sidebar.backupState", "{\"command\":\"\",\"panelWidth\":50,\"launcherExpanded\":false,\"launcherVisible\":true}");
+user_pref("sidebar.backupState", "{\"command\":\"\",\"panelWidth\":50,\"launcherExpanded\":false,\"launcherVisible\":false}");
 user_pref("sidebar.visibility", "hide-sidebar");
 user_pref("signon.management.page.os-auth.optout", "MDIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECHyCIjavkcGsBAi+wJKblgRVbg==");
 user_pref("storage.vacuum.last.content-prefs.sqlite", 1741169848);
