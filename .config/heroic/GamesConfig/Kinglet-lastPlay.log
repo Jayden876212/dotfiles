@@ -4,9 +4,12 @@ Installed in: /home/tdljayden/Games/Heroic/SidMeiersCivilizationVI
 
 System Info:
 CPU: 12x AMD Ryzen 5 5600X 6-Core Processor
-Memory: 16.67 GB (used: 1.88 GB)
+Memory: 16.67 GB (used: 2.1 GB)
 GPUs:
-
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] RX 6600 MECH 2X
+    IDs: D=73ff V=1002 SD=5022 SV=1462
+    Driver: amdgpu
 OS: Gentoo 6.12.16-tdljayden-petrichor (linux)
 
 The current system is not a Steam Deck
@@ -64,11 +67,11 @@ Game Settings: {
 	"ignoreGameUpdates": true
 }
 
-Game launched at: Fri Mar 21 2025 21:06:14 GMT+0000 (GMT)
+Game launched at: Fri Mar 28 2025 18:07:02 GMT+0000 (GMT)
 
 Winetricks packages: 
 
-Launch Command: HEROIC_APP_NAME=Kinglet HEROIC_APP_RUNNER=legendary GAMEID=umu-0 HEROIC_APP_SOURCE=epic STORE=egs STEAM_COMPAT_INSTALL_PATH=/home/tdljayden/Games/Heroic/SidMeiersCivilizationVI LD_PRELOAD= WINEPREFIX="/home/tdljayden/Games/Heroic/Prefixes/default/Sid Meiers Civilization VI" WINEDLLOVERRIDES=winemenubuilder.exe=d WINE_FULLSCREEN_FSR=0 WINEESYNC=1 WINEFSYNC=1 PROTON_EAC_RUNTIME=/home/tdljayden/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/tdljayden/.config/heroic/tools/runtimes/battleye_runtime /opt/heroic-2.16.1/resources/app.asar.unpacked/build/bin/x64/linux/legendary launch Kinglet --wine /etc/eselect/wine/bin/wine --wrapper "/usr/bin/gamescope -w 1920 -h 1080 -W 1920 -H 1080 -S stretch -f --immediate-flips -o 24 --framerate-limit 0 -r 144 --force-grab-cursor -g --rt -O DP-2 --display-index DP-2 --mangoapp -- /usr/bin/gamemoderun" --skip-version-check --language en --override-exe /home/tdljayden/Games/Heroic/SidMeiersCivilizationVI/Base/Binaries/Win64EOS/CivilizationVI_DX12.exe --offline
+Launch Command: HEROIC_APP_NAME=Kinglet HEROIC_APP_RUNNER=legendary GAMEID=umu-0 HEROIC_APP_SOURCE=epic STORE=egs STEAM_COMPAT_INSTALL_PATH=/home/tdljayden/Games/Heroic/SidMeiersCivilizationVI LD_PRELOAD= WINEPREFIX="/home/tdljayden/Games/Heroic/Prefixes/default/Sid Meiers Civilization VI" WINEDLLOVERRIDES=winemenubuilder.exe=d WINE_FULLSCREEN_FSR=0 WINEESYNC=1 WINEFSYNC=1 PROTON_EAC_RUNTIME=/home/tdljayden/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/tdljayden/.config/heroic/tools/runtimes/battleye_runtime /opt/heroic-2.16.1/resources/app.asar.unpacked/build/bin/x64/linux/legendary launch Kinglet --wine /etc/eselect/wine/bin/wine --wrapper "/usr/bin/gamescope -w 1920 -h 1080 -W 1920 -H 1080 -S stretch -f --immediate-flips -o 24 --framerate-limit 0 -r 144 --force-grab-cursor -g --rt -O DP-2 --display-index DP-2 --mangoapp -- /usr/bin/gamemoderun" --skip-version-check --language en --override-exe /home/tdljayden/Games/Heroic/SidMeiersCivilizationVI/Base/Binaries/Win64EOS/CivilizationVI_DX12.exe
 
 Game Log:
 IMPORTANT: Logs are disabled.
