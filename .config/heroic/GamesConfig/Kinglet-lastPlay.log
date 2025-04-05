@@ -4,7 +4,7 @@ Installed in: /home/tdljayden/Games/Heroic/SidMeiersCivilizationVI
 
 System Info:
 CPU: 12x AMD Ryzen 5 5600X 6-Core Processor
-Memory: 16.67 GB (used: 1.83 GB)
+Memory: 16.67 GB (used: 6.63 GB)
 GPUs:
   GPU 0:
     Name: Advanced Micro Devices, Inc. [AMD/ATI] RX 6600 MECH 2X
@@ -67,7 +67,7 @@ Game Settings: {
 	"ignoreGameUpdates": true
 }
 
-Game launched at: Thu Apr 03 2025 20:10:58 GMT+0000 (GMT)
+Game launched at: Fri Apr 04 2025 22:23:31 GMT+0000 (GMT)
 
 Winetricks packages: 
 
@@ -77,4 +77,3 @@ Game Log:
 IMPORTANT: Logs are disabled.
 Enable verbose logs in Game's settings > Advanced tab > 'Enable verbose logs' before reporting an issue.
 
-============= End of log =============
