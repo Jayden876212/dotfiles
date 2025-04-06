@@ -212,8 +212,11 @@ cd
 alias dnvim="doas nvim"
 alias sysup="e -uDN @world"
 alias sudo="doas"
+alias pandoc="pandoc --pdf-engine=weasyprint \
+                     --pdf-engine-opt=--pdf-variant=pdf/ua-1"
 
 export MANPAGER="nvim +Man!"
+
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/go/bin
 
