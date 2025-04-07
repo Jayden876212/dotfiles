@@ -4,13 +4,13 @@ Installed in: /home/tdljayden/Games/Heroic/SidMeiersCivilizationVI
 
 System Info:
 CPU: 12x AMD Ryzen 5 5600X 6-Core Processor
-Memory: 16.67 GB (used: 1.69 GB)
+Memory: 16.67 GB (used: 1.41 GB)
 GPUs:
   GPU 0:
     Name: Advanced Micro Devices, Inc. [AMD/ATI] RX 6600 MECH 2X
     IDs: D=73ff V=1002 SD=5022 SV=1462
     Driver: amdgpu
-OS: Gentoo 6.12.16-tdljayden-petrichor (linux)
+OS: Gentoo 6.12.21-tdljayden-petrichor (linux)
 
 The current system is not a Steam Deck
 We are not running inside a Flatpak container
@@ -67,7 +67,7 @@ Game Settings: {
 	"ignoreGameUpdates": true
 }
 
-Game launched at: Sat Apr 05 2025 21:45:54 GMT+0000 (GMT)
+Game launched at: Sun Apr 06 2025 18:17:29 GMT+0000 (GMT)
 
 Winetricks packages: 
 
