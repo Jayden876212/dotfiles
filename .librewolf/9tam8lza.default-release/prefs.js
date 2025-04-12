@@ -11,7 +11,7 @@
 
 user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1744446166);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1744477206);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1744484409);
 user_pref("app.update.lastUpdateTime.services-settings-poll-changes", 1744446166);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1744446166);
 user_pref("browser.bookmarks.editDialog.confirmationHintShowCount", 3);
@@ -63,8 +63,8 @@ user_pref("browser.safebrowsing.provider.google.gethashURL", "https://safebrowsi
 user_pref("browser.safebrowsing.provider.google.updateURL", "https://safebrowsing.google.com/safebrowsing/downloads?client=SAFEBROWSING_ID&appver=%MAJOR_VERSION%&pver=2.2&key=%GOOGLE_SAFEBROWSING_API_KEY%");
 user_pref("browser.safebrowsing.provider.google4.dataSharingURL", "");
 user_pref("browser.safebrowsing.provider.google4.gethashURL", "https://safebrowsing.googleapis.com/v4/fullHashes:find?$ct=application/x-protobuf&key=%GOOGLE_SAFEBROWSING_API_KEY%&$httpMethod=POST");
-user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1744477176993");
-user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1744478982993");
+user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1744485360034");
+user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1744487156034");
 user_pref("browser.safebrowsing.provider.google4.updateURL", "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=%GOOGLE_SAFEBROWSING_API_KEY%&$httpMethod=POST");
 user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1744467737202");
 user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1744489337202");
@@ -114,7 +114,7 @@ user_pref("distribution.iniFile.exists.appversion", "137.0-3");
 user_pref("distribution.iniFile.exists.value", false);
 user_pref("dom.forms.autocomplete.formautofill", true);
 user_pref("dom.private-attribution.submission.enabled", false);
-user_pref("dom.push.userAgentID", "76652fc3b53341bc847cb3645d2485fe");
+user_pref("dom.push.userAgentID", "cb532928f210473c8034aeb0f0e87051");
 user_pref("dom.security.https_only_mode_ever_enabled", true);
 user_pref("extensions.activeThemeID", "firefox-compact-dark@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", -1);
