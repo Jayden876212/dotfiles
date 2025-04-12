@@ -11,7 +11,7 @@
 
 user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1744446166);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1744484409);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1744496424);
 user_pref("app.update.lastUpdateTime.services-settings-poll-changes", 1744446166);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1744446166);
 user_pref("browser.bookmarks.editDialog.confirmationHintShowCount", 3);
@@ -232,7 +232,7 @@ user_pref("storage.vacuum.last.content-prefs.sqlite", 1743803965);
 user_pref("storage.vacuum.last.index", 2);
 user_pref("storage.vacuum.last.places.sqlite", 1743631164);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
-user_pref("toolkit.startup.last_success", 1744496378);
+user_pref("toolkit.startup.last_success", 1744496393);
 user_pref("toolkit.telemetry.cachedClientID", "d483779e-6a37-4c46-9d8a-576a9f351f89");
 user_pref("toolkit.telemetry.cachedProfileGroupID", "d483779e-6a37-4c46-9d8a-576a9f351f89");
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
