@@ -218,7 +218,7 @@ alias pandoc="pandoc --pdf-engine=weasyprint \
 export MANPAGER="nvim +Man!"
 
 #export HSA_ENABLE_SDMA=0
-export HSA_OVERRIDE_GFX_VERSION=10.3.1
+#export HSA_OVERRIDE_GFX_VERSION=10.3.1
 alias deepseek="ollama run deepseek-r1:7b"
 
 
