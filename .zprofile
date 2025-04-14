@@ -5,4 +5,4 @@
 
 run-parts $HOME/.scripts/startup &
 
-#/usr/bin/dbus-run-session Hyprland
+/usr/bin/dbus-run-session Hyprland
