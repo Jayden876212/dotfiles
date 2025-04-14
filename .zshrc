@@ -221,6 +221,8 @@ export MANPAGER="nvim +Man!"
 #export HSA_OVERRIDE_GFX_VERSION=10.3.1
 alias deepseek="ollama run deepseek-r1:7b"
 
+alias amdgpu_top="amdgpu_top --dark"
+
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/go/bin
 
