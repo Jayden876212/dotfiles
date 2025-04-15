@@ -73,6 +73,9 @@ set foldmethod=manual
 let g:airline_theme='base16_nord'
 let g:airline_powerline_fonts = 1
 
+let g:suda_smart_edit = 1
+let g:suda#noninteractive = 1
+
 call plug#begin() 
 Plug 'EdenEast/nightfox.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
@@ -104,6 +107,7 @@ Plug 'preservim/vim-markdown'
 Plug 'epwalsh/obsidian.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
+Plug 'lambdalisue/vim-suda'
 call plug#end()
 
 

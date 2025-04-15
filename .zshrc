@@ -209,7 +209,7 @@ alias "keydrive-close"="/usr/bin/doas /bin/sh /home/tdljayden/.scripts/keydrive-
 # Ensure we are in the right directory
 cd
 
-alias dnvim="doas nvim"
+#alias dnvim="doas nvim"
 alias sysup="e -uDN @world"
 alias sudo="doas"
 alias pandoc="pandoc --pdf-engine=weasyprint \
