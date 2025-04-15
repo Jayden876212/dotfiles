@@ -186,3 +186,12 @@ browser[type=content] > html {
     opacity: 1; margin-top: 0px !important;
 }
 
+/* Style sidebar */
+
+.browser-toolbox-background {
+    background-color: rgba(46, 51, 64, 0.75) !important;
+}
+
+.browser-toolbox-background:-moz-window-inactive {
+    background-color: rgba(46, 51, 64, 0.75) !important;
+}
