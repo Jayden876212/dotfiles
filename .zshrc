@@ -134,7 +134,7 @@ alias .....="cd ....."
 alias cmatrix="neo --defaultbg --fps=144 --color=blue"
 
 alias pipes="pipes-rs"
-alias fastfetch="fastfetch --logo-color-1 blue --logo-color-2 black --color blue --colors-symbol circle"
+alias fastfetch="fastfetch --logo-color-1 blue --logo-color-2 black --color blue --colors-symbol circle --pipe false"
 alias fetch="fastfetch"
 
 alias whatsapp="nchat"
