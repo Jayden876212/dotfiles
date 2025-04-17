@@ -210,7 +210,8 @@ alias "keydrive-close"="/usr/bin/doas /bin/sh /home/tdljayden/.scripts/keydrive-
 cd
 
 #alias dnvim="doas nvim"
-alias sysup="e -uDN @world"
+#alias sysup="e -uDN @world"
+alias sysup="/bin/sh $HOME/.scripts/sysup.sh"
 alias sudo="doas"
 alias pandoc="pandoc --pdf-engine=weasyprint \
                      --pdf-engine-opt=--pdf-variant=pdf/ua-1"
