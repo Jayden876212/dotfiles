@@ -107,7 +107,8 @@ Plug 'preservim/vim-markdown'
 Plug 'epwalsh/obsidian.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
-Plug 'lambdalisue/vim-suda'
+Plug 'Grafcube/suedit.nvim'
+Plug 'akinsho/toggleterm.nvim'
 call plug#end()
 
 
@@ -148,6 +149,10 @@ colorscheme nordfox
 set completeopt=menu,menuone,noselect
 
 lua <<EOF
+
+require("suedit").setup({
+  opts = { cmd =  "doas" }
+})
 
 vim.api.nvim_create_autocmd('FileType', {
   pattern = 'html',
@@ -213,6 +218,7 @@ sources = cmp.config.sources({
 { name = 'buffer' },
 })
 })
+
 
 -- Set configuration for specific filetype.
 cmp.setup.filetype('gitcommit', {

@@ -113,3 +113,7 @@ require("nvim-tree").setup({
 
 vim.api.nvim_set_keymap("n", "<F5>", ":NvimTreeToggle", { silent = false })
 vim.api.nvim_set_keymap("n", "<F4>", ":NvimTreeFocus", { silent = false })
+
+--require("suedit").setup({
+-- cmd = "doas" 
+--})
