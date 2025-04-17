@@ -190,7 +190,7 @@ alias stopwatch="python /home/tdljayden/tools/stopwatch.py"
 
 alias searxng="zsh $HOME/.scripts/searxng-zsh.sh"
 
-alias radicale="/home/tdljayden/radicale_storage_decsync/.venv/bin/python3 -m radicale --config "~/.config/radicale/config.conf""
+#alias radicale="/home/tdljayden/radicale_storage_decsync/.venv/bin/python3 -m radicale --config "~/.config/radicale/config.conf""
 
 alias journal-timer="tclock -c LightCyan timer -d 10m"
 
