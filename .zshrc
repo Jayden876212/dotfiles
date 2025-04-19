@@ -225,7 +225,7 @@ alias deepseek="ollama run deepseek-r1:7b"
 alias amdgpu_top="amdgpu_top --dark"
 
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/go/bin
+export PATH=$PATH:$HOME/bin:/usr/local/bin:$HOME/go/bin:$HOME/.local/bin
 
 # Runtime fetch splash
 fetch
