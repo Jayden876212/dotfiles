@@ -1,0 +1,5 @@
+#!/bin/sh
+
+NOTES_DIRECTORY="/home/tdljayden/sync/notes/Knowledge/College"
+cd $NOTES_DIRECTORY
+git pull -j12 

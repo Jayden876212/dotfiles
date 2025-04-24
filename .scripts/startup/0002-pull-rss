@@ -1,0 +1,27 @@
+#! /bin/sh
+
+# Get name of would-be RSS feed markdown file
+current_date="$( date "+%Y-%m-%d").md"
+
+sleep 25 # Sleep to avoid bugs associated with the delay in establishing a network connection
+
+cd $HOME/sync/notes/Information/Systems/Daily # Change the working directory to my RSS directory in my Obsidian vault
+
+if [ ! -e $current_date ]; then # Check if daily RSS feed markdown file does not exist already so it only runs once a day
+	echo "Daily RSS feed ($current_date) not found.\nPulling RSS feed..."
+	/usr/bin/dunstify "Daily RSS feed ($current_date) not found.\nPulling RSS feed..."
+	$HOME/go/bin/matcha # Build RSS feed markdown file
+	doas /usr/bin/rc-service ollama restart
+	sed -i -e "s/<think>/%%/g" $current_date
+	sed -i -e "s/<\/think>/%%/g" $current_date
+	echo "Finished pulling daily RSS feed ($current_date).\nLaunching Obsidian..."
+	/usr/bin/dunstify "Finished pulling daily RSS feed ($current_date).\nLaunching Obsidian..."
+else
+	echo "Daily RSS feed ($current_date) already exists."
+	/usr/bin/dunstify "Daily RSS feed ($current_date) already exists."
+	# Do nothing
+fi
+
+/opt/Obsidian/obsidian --ozone-platform-hint=auto --enable-features=UseOzonePlatform,WaylandWindowDecorations
+
+cd # Change working directory to default to exit

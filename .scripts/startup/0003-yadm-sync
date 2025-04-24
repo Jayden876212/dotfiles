@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sleep 60
+
+cd
+
+yadm pull
+yadm add -u
+yadm commit -m "Auto-commit"
+yadm push

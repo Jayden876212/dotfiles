@@ -1,0 +1,8 @@
+#! /bin/sh
+
+export RADICALE_PATH="$HOME/sync/calendar-tasks-contacts/Caldav"
+export RADICALE_CONFIG="$RADICALE_PATH/radicale.ini"
+
+cd $RADICALE_PATH
+
+radicale &
