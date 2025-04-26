@@ -576,3 +576,7 @@
 2025/04/24 (22:18:44) | ===> btop++ v.1.4.0
 2025/04/24 (22:18:44) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
 2025/04/24 (22:18:44) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/04/26 (06:18:53) | ===> btop++ v.1.4.0
+2025/04/26 (06:18:53) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/04/26 (06:18:53) | WARNING: ROCm SMI: Failed to get PCIe throughput
