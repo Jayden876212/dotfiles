@@ -5,6 +5,17 @@ sleep 60
 cd
 
 yadm pull
+echo "Pulled dotfiles."
+dunstify "Pulled dotfiles."
+
 yadm add -u
+echo "Staged dotfiles."
+dunstify "Staged dotfiles."
+
 yadm commit -m "Auto-commit"
+echo "Committed dotfiles."
+dunstify "Committed dotfiles."
+
 yadm push
+echo "Pushed dotfiles."
+dunstify "Pushed dotfiles."

@@ -14,10 +14,10 @@ if [ ! -e $current_date ]; then # Check if daily RSS feed markdown file does not
 	doas /usr/bin/rc-service ollama restart
 	sed -ie '/<think>/,/<\/think>/d' $current_date # Remove thinking process
 	echo "Finished pulling daily RSS feed ($current_date).\nLaunching Obsidian..."
-	/usr/bin/dunstify "Finished pulling daily RSS feed ($current_date). Launching Obsidian..."
+	dunstify "Finished pulling daily RSS feed ($current_date). Launching Obsidian..."
 else
 	echo "Daily RSS feed ($current_date) already exists."
-	/usr/bin/dunstify "Daily RSS feed ($current_date) already exists."
+	dunstify "Daily RSS feed ($current_date) already exists."
 	# Do nothing
 fi
 
