@@ -3,7 +3,7 @@
 (foreground (color-rgb 0 0.375 1))
 (brush "2. Hardness 075")
 (dynamics "Dynamics Off")
-(palette "Color History")
+(palette "Standard")
 (brush-size 51)
 (brush-hardness 0.75)
 
