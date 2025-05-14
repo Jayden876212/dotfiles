@@ -9,6 +9,7 @@
     (factory-entry "gimp-empty-image-window")
     (position 12 52)
     (size 941 1016)
+    (monitor 2)
     (open-on-exit))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
@@ -22,7 +23,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
     (position 751 394)
-    (monitor 1))
+    (monitor 2))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
     (position 216 160)
