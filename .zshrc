@@ -224,6 +224,8 @@ alias deepseek="ollama run deepseek-r1:7b"
 
 alias amdgpu_top="amdgpu_top --dark"
 
+alias artisan="php artisan"
+
 
 export PATH=$PATH:$HOME/bin:/usr/local/bin:$HOME/go/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/.config/composer/vendor/bin
 

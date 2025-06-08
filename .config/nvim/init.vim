@@ -109,6 +109,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 Plug 'Grafcube/suedit.nvim'
 Plug 'akinsho/toggleterm.nvim'
+Plug 'jwalton512/vim-blade'
 call plug#end()
 
 

@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "coc-html": ">=1.8.0"
+    "coc-html": ">=1.8.0",
+    "coc-blade": ">=0.18.11",
+    "@yaegassy/coc-laravel": ">=0.7.18",
+    "@yaegassy/coc-intelephense": ">=0.31.3"
   }
 }
