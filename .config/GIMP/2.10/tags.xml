@@ -2167,6 +2167,21 @@
   <resource identifier="Noto Color Emoji" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Emoji" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Emoji Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Emoji Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Emoji Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Emoji Semi-Bold" checksum="(null)">
+  </resource>
+
   <resource identifier="Oswald" checksum="(null)">
   </resource>
 
