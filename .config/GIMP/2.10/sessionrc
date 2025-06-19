@@ -53,7 +53,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-action-search-dialog")
     (position 967 52)
-    (size 166 540)
+    (size 166 32)
     (monitor 2))
 
 (hide-docks no)
