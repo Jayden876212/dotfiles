@@ -170,7 +170,7 @@ vim.api.nvim_create_autocmd('FileType', {
   callback = function(args)
   vim.lsp.start({
   name = 'C and C++',
-  cmd = {'/usr/lib/llvm/18/bin/clangd'},
+  cmd = {'clangd'},
   })
   end,
 })
