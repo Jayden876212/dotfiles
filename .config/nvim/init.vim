@@ -110,6 +110,7 @@ Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 Plug 'Grafcube/suedit.nvim'
 Plug 'akinsho/toggleterm.nvim'
 Plug 'jwalton512/vim-blade'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 
