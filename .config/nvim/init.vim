@@ -111,6 +111,7 @@ Plug 'Grafcube/suedit.nvim'
 Plug 'akinsho/toggleterm.nvim'
 Plug 'jwalton512/vim-blade'
 Plug 'airblade/vim-gitgutter'
+Plug 'vim-scripts/DoxygenToolkit.vim'
 call plug#end()
 
 

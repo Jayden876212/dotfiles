@@ -72,5 +72,5 @@
 
 ; workspaces indicator
 
-(deflisten workspaces 'scripts/hyprland_workspace_indicator/example/workspaces_script')
+(deflisten workspaces 'scripts/workspaces.sh')
 (deflisten monitors 'scripts/monitors')
